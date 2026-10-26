@@ -1,0 +1,801 @@
+date,produit,categorie,quantite,prix,ville
+2025-06-05,Jus de bissap 1L,Boissons,8,1000,Dakar
+2025-08-15,Jus de bissap 1L,Boissons,5,1000,Dakar
+2025-11-06,Pagne wax 6 yards,Vêtements,2,11800,Thiès
+2025-05-12,Soda 50cl,Boissons,3,550,Thiès
+2025-01-03,Riz parfumé 5kg,Alimentation,1,3600,Thiès
+2025-07-09,Café moulu 250g,Boissons,8,2400,Thiès
+2025-08-10,Chargeur USB-C,Électronique,3,4800,Saint-Louis
+2025-01-10,Casquette,Vêtements,2,2900,Dakar
+2025-12-06,Powerbank 10000mAh,Électronique,3,14950,Dakar
+2025-12-20,"Eau minérale 1,5L",Boissons,7,500,Saint-Louis
+2025-11-15,Sandales,Vêtements,1,6500,Dakar
+2025-05-10,Pâtes alimentaires 500g,Alimentation,1,600,Dakar
+2025-04-16,Jus de bissap 1L,Boissons,6,1000,Saint-Louis
+2025-05-15,Écouteurs sans fil,Électronique,3,12100,Dakar
+2025-04-30,Pagne wax 6 yards,Vêtements,5,12350,Kaolack
+2025-11-15,T-shirt coton,Vêtements,1,4450,Thiès
+2025-11-20,Powerbank 10000mAh,Électronique,1,14300,Dakar
+2025-11-29,Chargeur USB-C,Électronique,2,5200,Thiès
+2025-08-05,Riz parfumé 5kg,Alimentation,3,3350,Saint-Louis
+2025-10-31,Lait en poudre 400g,Alimentation,6,2300,Thiès
+2025-12-31,"Eau minérale 1,5L",Boissons,2,500,Dakar
+2025-10-27,Café moulu 250g,Boissons,5,2600,Dakar
+2025-04-11,Riz parfumé 5kg,Alimentation,2,3500,Thiès
+2025-12-20,Écouteurs sans fil,Électronique,1,12400,Thiès
+2025-08-19,"Eau minérale 1,5L",Boissons,3,500,Dakar
+2025-07-30,Dentifrice,Hygiène,1,1150,Dakar
+2025-03-06,Café moulu 250g,Boissons,1,2400,Dakar
+2025-09-14,Écouteurs sans fil,Électronique,2,11900,Kaolack
+2025-05-23,Riz parfumé 5kg,Alimentation,4,3400,Thiès
+2025-01-23,"Eau minérale 1,5L",Boissons,8,500,Saint-Louis
+2025-12-08,Savon de Marseille,Hygiène,4,700,Saint-Louis
+2025-08-26,Lait en poudre 400g,Alimentation,7,2300,Ziguinchor
+2025-06-20,Écouteurs sans fil,Électronique,2,12200,Dakar
+2025-10-21,Lessive 1kg,Hygiène,7,2000,Saint-Louis
+2025-10-15,Huile végétale 1L,Alimentation,6,1500,Dakar
+2025-05-09,Café moulu 250g,Boissons,2,2550,Thiès
+2025-11-27,"Eau minérale 1,5L",Boissons,7,500,Ziguinchor
+2025-10-04,Sucre 1kg,Alimentation,7,850,Saint-Louis
+2025-11-23,Pagne wax 6 yards,Vêtements,6,12250,Dakar
+2025-03-06,"Eau minérale 1,5L",Boissons,1,500,Kaolack
+2025-01-20,Huile végétale 1L,Alimentation,1,1450,Saint-Louis
+2025-08-22,Riz parfumé 5kg,Alimentation,2,3450,Dakar
+2025-02-04,Soda 50cl,Boissons,5,600,Dakar
+2025-08-13,"Eau minérale 1,5L",Boissons,4,500,Dakar
+2025-12-05,Chargeur USB-C,Électronique,1,5050,Saint-Louis
+2025-03-24,Sandales,Vêtements,1,6350,Thiès
+2025-11-27,Lessive 1kg,Hygiène,3,2100,Dakar
+2025-06-04,Jus de bissap 1L,Boissons,1,1000,Dakar
+2025-05-20,Shampoing 250ml,Hygiène,3,2800,Ziguinchor
+2025-07-22,Pâtes alimentaires 500g,Alimentation,3,650,Dakar
+2025-02-23,Shampoing 250ml,Hygiène,5,2650,Thiès
+2025-10-01,Casquette,Vêtements,7,3150,Saint-Louis
+2025-02-28,Sandales,Vêtements,2,6250,Dakar
+2025-12-14,Lessive 1kg,Hygiène,4,2050,Dakar
+2025-12-11,Lait en poudre 400g,Alimentation,3,2200,Dakar
+2025-06-16,T-shirt coton,Vêtements,2,4400,Dakar
+2025-05-17,Jus de bissap 1L,Boissons,3,950,Saint-Louis
+2025-08-14,Lampe solaire,Électronique,1,8750,Kaolack
+2025-11-01,Huile végétale 1L,Alimentation,6,1500,Saint-Louis
+2025-10-30,Jus de bissap 1L,Boissons,7,1000,Saint-Louis
+2025-04-20,Chargeur USB-C,Électronique,3,5050,Saint-Louis
+2025-08-28,T-shirt coton,Vêtements,6,4500,Saint-Louis
+2025-02-18,Pâtes alimentaires 500g,Alimentation,3,600,Saint-Louis
+2025-09-22,T-shirt coton,Vêtements,6,4300,Dakar
+2025-01-04,Sandales,Vêtements,2,6350,Saint-Louis
+2025-09-19,Powerbank 10000mAh,Électronique,3,14400,Dakar
+2025-10-24,Riz parfumé 5kg,Alimentation,3,3400,Kaolack
+2025-12-17,Dentifrice,Hygiène,4,1150,Dakar
+2025-04-26,"Eau minérale 1,5L",Boissons,4,500,Kaolack
+2025-04-26,Shampoing 250ml,Hygiène,3,2700,Dakar
+2025-10-07,Powerbank 10000mAh,Électronique,2,15400,Saint-Louis
+2025-12-15,T-shirt coton,Vêtements,6,4400,Kaolack
+2025-02-17,Soda 50cl,Boissons,4,600,Kaolack
+2025-11-18,Dentifrice,Hygiène,4,1250,Saint-Louis
+2025-10-27,Jus de bissap 1L,Boissons,8,1000,Dakar
+2025-10-01,Lait en poudre 400g,Alimentation,3,2300,Kaolack
+2025-04-08,Jus de bissap 1L,Boissons,8,1050,Saint-Louis
+2025-05-25,Café moulu 250g,Boissons,5,2550,Thiès
+2025-09-29,Casquette,Vêtements,4,2950,Dakar
+2025-12-31,Riz parfumé 5kg,Alimentation,1,3400,Thiès
+2025-12-20,Lampe solaire,Électronique,1,8900,Saint-Louis
+2025-09-27,Pagne wax 6 yards,Vêtements,2,11900,Saint-Louis
+2025-07-06,Café moulu 250g,Boissons,8,2550,Ziguinchor
+2025-06-24,Casquette,Vêtements,4,3000,Dakar
+2025-10-02,T-shirt coton,Vêtements,4,4550,Ziguinchor
+2025-03-21,Dentifrice,Hygiène,5,1150,Saint-Louis
+2025-04-21,Savon de Marseille,Hygiène,7,700,Dakar
+2025-11-15,Lampe solaire,Électronique,2,9200,Dakar
+2025-08-15,Écouteurs sans fil,Électronique,1,12050,Kaolack
+2025-02-10,Chargeur USB-C,Électronique,1,5000,Dakar
+2025-11-08,Sandales,Vêtements,8,6350,Ziguinchor
+2025-07-09,Chargeur USB-C,Électronique,3,5200,Saint-Louis
+2025-08-08,Jus de bissap 1L,Boissons,7,1050,Thiès
+2025-02-28,Pagne wax 6 yards,Vêtements,4,11850,Dakar
+2025-06-03,Lampe solaire,Électronique,1,8600,Dakar
+2025-04-14,Pagne wax 6 yards,Vêtements,7,11400,Thiès
+2025-03-09,Powerbank 10000mAh,Électronique,1,15200,Saint-Louis
+2025-02-15,Lessive 1kg,Hygiène,8,2100,Ziguinchor
+2025-10-17,Jus de bissap 1L,Boissons,8,1000,Kaolack
+2025-05-26,Huile végétale 1L,Alimentation,6,1550,Kaolack
+2025-11-03,Huile végétale 1L,Alimentation,1,1550,Ziguinchor
+2025-10-18,Lessive 1kg,Hygiène,5,1950,Dakar
+2025-06-05,Lampe solaire,Électronique,3,9100,Ziguinchor
+2025-10-30,Chargeur USB-C,Électronique,3,5100,Ziguinchor
+2025-10-03,Pagne wax 6 yards,Vêtements,3,12600,Saint-Louis
+2025-01-09,Pagne wax 6 yards,Vêtements,8,11850,Dakar
+2025-02-14,Casquette,Vêtements,6,3100,Saint-Louis
+2025-11-12,Écouteurs sans fil,Électronique,2,12450,Dakar
+2025-01-27,Lait en poudre 400g,Alimentation,1,2300,Dakar
+2025-01-25,Huile végétale 1L,Alimentation,2,1500,Dakar
+2025-06-25,Chargeur USB-C,Électronique,2,5250,Saint-Louis
+2025-09-04,Sandales,Vêtements,6,6550,Ziguinchor
+2025-02-16,Chargeur USB-C,Électronique,1,5150,Dakar
+2025-10-17,Lampe solaire,Électronique,1,9450,Thiès
+2025-11-28,Dentifrice,Hygiène,7,1250,Saint-Louis
+2025-04-02,Pagne wax 6 yards,Vêtements,5,12350,Dakar
+2025-11-14,T-shirt coton,Vêtements,3,4350,Dakar
+2025-01-15,Lampe solaire,Électronique,3,9200,Dakar
+2025-01-17,Lessive 1kg,Hygiène,5,1900,Saint-Louis
+2025-09-28,Café moulu 250g,Boissons,5,2550,Dakar
+2025-08-05,Sucre 1kg,Alimentation,6,800,Dakar
+2025-02-16,Lampe solaire,Électronique,1,9100,Ziguinchor
+2025-12-15,Lait en poudre 400g,Alimentation,6,2200,Dakar
+2025-03-04,"Eau minérale 1,5L",Boissons,5,500,Dakar
+2025-01-25,Powerbank 10000mAh,Électronique,3,14250,Dakar
+2025-06-17,Dentifrice,Hygiène,4,1200,Thiès
+2025-04-06,"Eau minérale 1,5L",Boissons,2,500,Ziguinchor
+2025-12-24,T-shirt coton,Vêtements,2,4500,Thiès
+2025-08-05,Lessive 1kg,Hygiène,2,1950,Thiès
+2025-10-11,Pagne wax 6 yards,Vêtements,6,11850,Dakar
+2025-12-15,Savon de Marseille,Hygiène,1,750,Kaolack
+2025-07-07,Sandales,Vêtements,3,6800,Dakar
+2025-01-18,Savon de Marseille,Hygiène,8,700,Dakar
+2025-09-20,Pagne wax 6 yards,Vêtements,8,12100,Dakar
+2025-11-08,Riz parfumé 5kg,Alimentation,2,3600,Dakar
+2025-07-30,Café moulu 250g,Boissons,7,2450,Dakar
+2025-02-17,Riz parfumé 5kg,Alimentation,7,3600,Thiès
+2025-07-22,Casquette,Vêtements,7,2900,Dakar
+2025-07-22,Jus de bissap 1L,Boissons,6,950,Thiès
+2025-08-24,Huile végétale 1L,Alimentation,3,1450,Dakar
+2025-03-10,Sandales,Vêtements,1,6350,Dakar
+2025-01-12,Café moulu 250g,Boissons,7,2400,Saint-Louis
+2025-05-10,Dentifrice,Hygiène,8,1200,Saint-Louis
+2025-10-30,Pagne wax 6 yards,Vêtements,4,12200,Thiès
+2025-01-05,Chargeur USB-C,Électronique,3,4900,Kaolack
+2025-10-30,Lessive 1kg,Hygiène,5,1950,Kaolack
+2025-12-16,T-shirt coton,Vêtements,4,4400,Dakar
+2025-01-30,Chargeur USB-C,Électronique,1,4850,Dakar
+2025-02-24,Powerbank 10000mAh,Électronique,3,15100,Dakar
+2025-03-31,Pâtes alimentaires 500g,Alimentation,6,600,Dakar
+2025-05-20,Riz parfumé 5kg,Alimentation,3,3500,Thiès
+2025-10-30,Pagne wax 6 yards,Vêtements,4,12450,Saint-Louis
+2025-06-13,Riz parfumé 5kg,Alimentation,1,3450,Saint-Louis
+2025-04-24,Pâtes alimentaires 500g,Alimentation,2,600,Thiès
+2025-12-02,Jus de bissap 1L,Boissons,5,1050,Dakar
+2025-11-10,Huile végétale 1L,Alimentation,7,1500,Thiès
+2025-09-07,Lait en poudre 400g,Alimentation,6,2150,Kaolack
+2025-03-06,Huile végétale 1L,Alimentation,8,1450,Thiès
+2025-05-07,Shampoing 250ml,Hygiène,8,2800,Saint-Louis
+2025-11-07,Riz parfumé 5kg,Alimentation,2,3600,Thiès
+2025-11-27,Casquette,Vêtements,5,3000,Kaolack
+2025-09-04,Lessive 1kg,Hygiène,6,2100,Dakar
+2025-11-06,Powerbank 10000mAh,Électronique,3,15100,Thiès
+2025-10-30,Shampoing 250ml,Hygiène,8,2850,Ziguinchor
+2025-10-08,Casquette,Vêtements,1,3050,Thiès
+2025-02-24,Café moulu 250g,Boissons,1,2400,Dakar
+2025-06-11,Riz parfumé 5kg,Alimentation,6,3450,Dakar
+2025-09-14,Soda 50cl,Boissons,6,550,Ziguinchor
+2025-10-05,Shampoing 250ml,Hygiène,7,2750,Kaolack
+2025-02-04,Sucre 1kg,Alimentation,8,800,Dakar
+2025-05-16,Jus de bissap 1L,Boissons,3,1050,Thiès
+2025-05-11,"Eau minérale 1,5L",Boissons,3,500,Ziguinchor
+2025-05-21,Sucre 1kg,Alimentation,7,800,Ziguinchor
+2025-02-11,Écouteurs sans fil,Électronique,1,12150,Thiès
+2025-07-13,Sucre 1kg,Alimentation,7,800,Ziguinchor
+2025-11-29,Pagne wax 6 yards,Vêtements,4,11450,Dakar
+2025-05-09,Sucre 1kg,Alimentation,6,750,Dakar
+2025-02-12,Lait en poudre 400g,Alimentation,8,2250,Dakar
+2025-02-09,Dentifrice,Hygiène,1,1200,Thiès
+2025-07-20,Écouteurs sans fil,Électronique,2,11500,Dakar
+2025-08-19,T-shirt coton,Vêtements,4,4550,Dakar
+2025-11-12,Savon de Marseille,Hygiène,8,700,Saint-Louis
+2025-11-26,Lessive 1kg,Hygiène,8,1900,Saint-Louis
+2025-11-04,Shampoing 250ml,Hygiène,6,2650,Thiès
+2025-10-13,"Eau minérale 1,5L",Boissons,4,500,Ziguinchor
+2025-10-22,Casquette,Vêtements,2,3000,Dakar
+2025-05-04,Savon de Marseille,Hygiène,5,650,Saint-Louis
+2025-04-21,Soda 50cl,Boissons,3,600,Thiès
+2025-12-04,Sandales,Vêtements,6,6300,Thiès
+2025-06-04,Casquette,Vêtements,7,2950,Ziguinchor
+2025-09-19,Écouteurs sans fil,Électronique,1,12000,Dakar
+2025-12-21,Café moulu 250g,Boissons,4,2600,Dakar
+2025-11-10,"Eau minérale 1,5L",Boissons,7,500,Dakar
+2025-07-04,Écouteurs sans fil,Électronique,1,12150,Dakar
+2025-05-31,Dentifrice,Hygiène,1,1250,Thiès
+2025-09-02,Sucre 1kg,Alimentation,3,800,Dakar
+2025-11-18,Chargeur USB-C,Électronique,1,5050,Dakar
+2025-08-02,Powerbank 10000mAh,Électronique,1,14750,Dakar
+2025-02-12,Lait en poudre 400g,Alimentation,2,2250,Thiès
+2025-09-19,Dentifrice,Hygiène,4,1250,Thiès
+2025-11-27,Powerbank 10000mAh,Électronique,3,15550,Saint-Louis
+2025-10-08,Lampe solaire,Électronique,2,8950,Saint-Louis
+2025-04-29,Huile végétale 1L,Alimentation,8,1450,Dakar
+2025-12-08,Écouteurs sans fil,Électronique,2,12300,Kaolack
+2025-12-02,Soda 50cl,Boissons,3,600,Dakar
+2025-12-02,Pagne wax 6 yards,Vêtements,8,12400,Dakar
+2025-10-12,"Eau minérale 1,5L",Boissons,3,500,Saint-Louis
+2025-11-25,Savon de Marseille,Hygiène,5,700,Dakar
+2025-10-16,Lampe solaire,Électronique,1,8700,Dakar
+2025-08-23,Jus de bissap 1L,Boissons,8,950,Thiès
+2025-01-31,Powerbank 10000mAh,Électronique,1,14650,Ziguinchor
+2025-12-28,Powerbank 10000mAh,Électronique,3,14500,Kaolack
+2025-11-22,Shampoing 250ml,Hygiène,2,2900,Dakar
+2025-10-25,Casquette,Vêtements,4,2900,Saint-Louis
+2025-11-26,Lait en poudre 400g,Alimentation,5,2150,Saint-Louis
+2025-08-01,"Eau minérale 1,5L",Boissons,1,500,Dakar
+2025-11-26,Pagne wax 6 yards,Vêtements,8,12500,Dakar
+2025-11-14,Powerbank 10000mAh,Électronique,1,14750,Ziguinchor
+2025-12-11,Shampoing 250ml,Hygiène,8,2700,Dakar
+2025-11-09,Powerbank 10000mAh,Électronique,2,15700,Dakar
+2025-02-23,Sandales,Vêtements,3,6350,Thiès
+2025-01-14,Soda 50cl,Boissons,8,600,Dakar
+2025-10-07,Chargeur USB-C,Électronique,2,4850,Dakar
+2025-05-19,Sucre 1kg,Alimentation,5,800,Kaolack
+2025-05-09,Powerbank 10000mAh,Électronique,3,15700,Dakar
+2025-02-19,Lampe solaire,Électronique,2,8650,Dakar
+2025-12-10,Powerbank 10000mAh,Électronique,2,15100,Thiès
+2025-11-12,Lampe solaire,Électronique,3,8550,Ziguinchor
+2025-10-11,T-shirt coton,Vêtements,1,4450,Dakar
+2025-05-19,Soda 50cl,Boissons,8,600,Thiès
+2025-11-05,Pagne wax 6 yards,Vêtements,5,12050,Saint-Louis
+2025-07-13,Café moulu 250g,Boissons,1,2400,Kaolack
+2025-05-25,Café moulu 250g,Boissons,8,2400,Ziguinchor
+2025-11-10,Sandales,Vêtements,3,6400,Thiès
+2025-07-21,Dentifrice,Hygiène,7,1250,Dakar
+2025-09-26,Shampoing 250ml,Hygiène,6,2850,Dakar
+2025-12-24,Soda 50cl,Boissons,4,600,Saint-Louis
+2025-08-16,Lampe solaire,Électronique,1,8850,Dakar
+2025-06-21,Sandales,Vêtements,7,6350,Thiès
+2025-11-18,Lait en poudre 400g,Alimentation,2,2200,Dakar
+2025-05-12,Sucre 1kg,Alimentation,3,750,Ziguinchor
+2025-06-19,T-shirt coton,Vêtements,7,4300,Dakar
+2025-09-07,Jus de bissap 1L,Boissons,5,1050,Dakar
+2025-11-04,Sucre 1kg,Alimentation,2,800,Dakar
+2025-05-11,Riz parfumé 5kg,Alimentation,3,3350,Ziguinchor
+2025-10-04,Huile végétale 1L,Alimentation,4,1550,Dakar
+2025-10-27,Soda 50cl,Boissons,1,600,Saint-Louis
+2025-12-06,Dentifrice,Hygiène,2,1250,Dakar
+2025-12-26,Huile végétale 1L,Alimentation,3,1550,Saint-Louis
+2025-05-09,Lessive 1kg,Hygiène,5,2100,Thiès
+2025-03-08,Powerbank 10000mAh,Électronique,1,14600,Kaolack
+2025-06-30,T-shirt coton,Vêtements,4,4650,Dakar
+2025-07-15,Huile végétale 1L,Alimentation,4,1550,Dakar
+2025-08-24,Lampe solaire,Électronique,1,8850,Kaolack
+2025-01-14,Chargeur USB-C,Électronique,2,4950,Dakar
+2025-12-18,Lessive 1kg,Hygiène,6,1900,Thiès
+2025-12-17,"Eau minérale 1,5L",Boissons,4,500,Dakar
+2025-11-29,Soda 50cl,Boissons,4,600,Kaolack
+2025-05-12,Riz parfumé 5kg,Alimentation,1,3400,Saint-Louis
+2025-08-27,Lampe solaire,Électronique,2,8950,Kaolack
+2025-01-21,Casquette,Vêtements,7,3100,Dakar
+2025-06-12,Café moulu 250g,Boissons,1,2500,Dakar
+2025-10-05,Powerbank 10000mAh,Électronique,2,14350,Dakar
+2025-11-17,Casquette,Vêtements,6,3050,Dakar
+2025-05-02,Dentifrice,Hygiène,6,1250,Thiès
+2025-11-28,Soda 50cl,Boissons,8,600,Ziguinchor
+2025-04-26,Café moulu 250g,Boissons,7,2600,Dakar
+2025-05-18,Écouteurs sans fil,Électronique,3,12500,Thiès
+2025-10-09,Chargeur USB-C,Électronique,2,4850,Dakar
+2025-02-03,Casquette,Vêtements,2,2850,Dakar
+2025-06-17,Sucre 1kg,Alimentation,3,850,Dakar
+2025-12-01,Riz parfumé 5kg,Alimentation,1,3450,Thiès
+2025-10-10,T-shirt coton,Vêtements,4,4650,Dakar
+2025-10-04,Sandales,Vêtements,1,6200,Dakar
+2025-10-15,Dentifrice,Hygiène,7,1150,Dakar
+2025-11-17,Savon de Marseille,Hygiène,8,750,Dakar
+2025-02-28,Shampoing 250ml,Hygiène,3,2800,Kaolack
+2025-12-11,Casquette,Vêtements,6,3150,Saint-Louis
+2025-04-18,Casquette,Vêtements,5,3100,Dakar
+2025-07-30,T-shirt coton,Vêtements,1,4300,Ziguinchor
+2025-11-19,Lessive 1kg,Hygiène,1,1950,Dakar
+2025-10-24,Powerbank 10000mAh,Électronique,1,15650,Thiès
+2025-12-03,Pagne wax 6 yards,Vêtements,6,11800,Thiès
+2025-05-13,T-shirt coton,Vêtements,3,4450,Saint-Louis
+2025-08-22,Shampoing 250ml,Hygiène,6,2700,Kaolack
+2025-12-12,Dentifrice,Hygiène,5,1150,Saint-Louis
+2025-02-18,Savon de Marseille,Hygiène,1,700,Thiès
+2025-04-24,Shampoing 250ml,Hygiène,8,2750,Thiès
+2025-10-13,Savon de Marseille,Hygiène,2,700,Dakar
+2025-05-29,Huile végétale 1L,Alimentation,8,1550,Ziguinchor
+2025-01-17,Lait en poudre 400g,Alimentation,2,2100,Saint-Louis
+2025-03-01,Riz parfumé 5kg,Alimentation,4,3650,Saint-Louis
+2025-10-10,"Eau minérale 1,5L",Boissons,6,500,Thiès
+2025-07-30,Chargeur USB-C,Électronique,1,4800,Dakar
+2025-09-15,Dentifrice,Hygiène,4,1200,Thiès
+2025-05-26,Lessive 1kg,Hygiène,1,2000,Dakar
+2025-11-07,Savon de Marseille,Hygiène,6,700,Thiès
+2025-04-19,Sucre 1kg,Alimentation,2,750,Ziguinchor
+2025-10-22,Lessive 1kg,Hygiène,1,2000,Ziguinchor
+2025-12-05,Powerbank 10000mAh,Électronique,2,15700,Dakar
+2025-04-05,Pagne wax 6 yards,Vêtements,4,11900,Thiès
+2025-08-11,Café moulu 250g,Boissons,4,2550,Ziguinchor
+2025-10-06,Écouteurs sans fil,Électronique,2,11950,Thiès
+2025-06-04,Powerbank 10000mAh,Électronique,2,14850,Kaolack
+2025-01-26,Dentifrice,Hygiène,7,1150,Saint-Louis
+2025-05-28,Shampoing 250ml,Hygiène,8,2950,Thiès
+2025-03-08,Jus de bissap 1L,Boissons,7,1000,Saint-Louis
+2025-08-18,Soda 50cl,Boissons,8,600,Dakar
+2025-06-06,Dentifrice,Hygiène,7,1200,Kaolack
+2025-11-25,Huile végétale 1L,Alimentation,4,1450,Saint-Louis
+2025-11-09,Huile végétale 1L,Alimentation,5,1500,Thiès
+2025-10-21,Sandales,Vêtements,1,6650,Thiès
+2025-04-07,"Eau minérale 1,5L",Boissons,1,500,Dakar
+2025-12-25,Lessive 1kg,Hygiène,1,1950,Dakar
+2025-12-17,Powerbank 10000mAh,Électronique,2,14300,Dakar
+2025-12-31,Sandales,Vêtements,7,6700,Saint-Louis
+2025-06-20,Lampe solaire,Électronique,1,9250,Dakar
+2025-12-15,Huile végétale 1L,Alimentation,3,1450,Dakar
+2025-10-14,Pâtes alimentaires 500g,Alimentation,6,600,Saint-Louis
+2025-12-08,Powerbank 10000mAh,Électronique,3,14250,Dakar
+2025-12-29,Écouteurs sans fil,Électronique,2,11750,Dakar
+2025-05-09,Shampoing 250ml,Hygiène,6,2700,Thiès
+2025-12-28,Lampe solaire,Électronique,2,8850,Dakar
+2025-01-17,Shampoing 250ml,Hygiène,7,2850,Saint-Louis
+2025-12-05,Lessive 1kg,Hygiène,3,2000,Dakar
+2025-11-23,"Eau minérale 1,5L",Boissons,4,500,Dakar
+2025-01-27,Pagne wax 6 yards,Vêtements,1,12100,Dakar
+2025-04-22,Jus de bissap 1L,Boissons,8,1050,Dakar
+2025-01-21,Sucre 1kg,Alimentation,7,800,Thiès
+2025-02-22,Shampoing 250ml,Hygiène,8,2650,Dakar
+2025-12-04,Lampe solaire,Électronique,2,9050,Dakar
+2025-03-07,Jus de bissap 1L,Boissons,3,1000,Ziguinchor
+2025-12-06,Riz parfumé 5kg,Alimentation,4,3650,Saint-Louis
+2025-10-09,Écouteurs sans fil,Électronique,2,12050,Saint-Louis
+2025-09-01,T-shirt coton,Vêtements,8,4550,Dakar
+2025-01-22,"Eau minérale 1,5L",Boissons,2,500,Dakar
+2025-10-01,Riz parfumé 5kg,Alimentation,1,3450,Ziguinchor
+2025-02-23,Powerbank 10000mAh,Électronique,2,14650,Kaolack
+2025-11-17,Savon de Marseille,Hygiène,2,700,Dakar
+2025-05-22,Lampe solaire,Électronique,3,8900,Dakar
+2025-06-27,Lessive 1kg,Hygiène,7,1900,Ziguinchor
+2025-12-05,Huile végétale 1L,Alimentation,4,1550,Thiès
+2025-07-27,Lait en poudre 400g,Alimentation,2,2250,Dakar
+2025-04-04,Sucre 1kg,Alimentation,1,800,Thiès
+2025-09-23,Casquette,Vêtements,7,2900,Thiès
+2025-06-07,Sandales,Vêtements,2,6750,Saint-Louis
+2025-12-06,T-shirt coton,Vêtements,4,4550,Saint-Louis
+2025-07-03,Chargeur USB-C,Électronique,3,4750,Dakar
+2025-10-19,Lessive 1kg,Hygiène,7,2000,Dakar
+2025-12-16,Chargeur USB-C,Électronique,2,5100,Dakar
+2025-06-12,Chargeur USB-C,Électronique,2,5100,Dakar
+2025-12-14,Soda 50cl,Boissons,8,600,Dakar
+2025-09-30,Jus de bissap 1L,Boissons,4,1050,Saint-Louis
+2025-11-30,Casquette,Vêtements,3,3100,Ziguinchor
+2025-08-12,Savon de Marseille,Hygiène,1,700,Kaolack
+2025-09-11,Lampe solaire,Électronique,1,9350,Kaolack
+2025-07-21,"Eau minérale 1,5L",Boissons,7,500,Dakar
+2025-12-10,Shampoing 250ml,Hygiène,8,2700,Kaolack
+2025-05-29,"Eau minérale 1,5L",Boissons,3,500,Saint-Louis
+2025-12-11,Lait en poudre 400g,Alimentation,1,2300,Saint-Louis
+2025-10-16,Casquette,Vêtements,4,3100,Dakar
+2025-07-10,Café moulu 250g,Boissons,7,2550,Saint-Louis
+2025-06-28,Dentifrice,Hygiène,6,1200,Thiès
+2025-11-16,Soda 50cl,Boissons,1,600,Thiès
+2025-02-07,Café moulu 250g,Boissons,5,2450,Saint-Louis
+2025-11-05,Pâtes alimentaires 500g,Alimentation,4,600,Dakar
+2025-10-12,Jus de bissap 1L,Boissons,7,1000,Dakar
+2025-07-27,T-shirt coton,Vêtements,6,4350,Kaolack
+2025-05-29,Dentifrice,Hygiène,7,1150,Dakar
+2025-10-05,Dentifrice,Hygiène,4,1150,Saint-Louis
+2025-10-23,"Eau minérale 1,5L",Boissons,1,500,Dakar
+2025-01-02,Riz parfumé 5kg,Alimentation,2,3500,Ziguinchor
+2025-05-05,Lessive 1kg,Hygiène,4,2000,Saint-Louis
+2025-12-30,Lampe solaire,Électronique,3,9050,Kaolack
+2025-08-24,Lessive 1kg,Hygiène,1,1950,Dakar
+2025-09-03,Café moulu 250g,Boissons,3,2550,Ziguinchor
+2025-01-26,Chargeur USB-C,Électronique,2,4900,Dakar
+2025-12-23,Savon de Marseille,Hygiène,6,700,Dakar
+2025-12-22,Powerbank 10000mAh,Électronique,1,15150,Dakar
+2025-11-18,Jus de bissap 1L,Boissons,3,1000,Dakar
+2025-11-29,Savon de Marseille,Hygiène,4,700,Thiès
+2025-04-24,Dentifrice,Hygiène,4,1200,Dakar
+2025-10-18,Powerbank 10000mAh,Électronique,1,14800,Saint-Louis
+2025-01-08,Powerbank 10000mAh,Électronique,2,15100,Saint-Louis
+2025-05-03,Lampe solaire,Électronique,1,8850,Saint-Louis
+2025-10-23,Lampe solaire,Électronique,3,8950,Dakar
+2025-12-10,Shampoing 250ml,Hygiène,8,2700,Dakar
+2025-05-17,Pâtes alimentaires 500g,Alimentation,4,600,Dakar
+2025-12-03,Soda 50cl,Boissons,3,600,Saint-Louis
+2025-08-19,Chargeur USB-C,Électronique,3,5200,Dakar
+2025-11-14,Huile végétale 1L,Alimentation,3,1550,Dakar
+2025-07-31,Jus de bissap 1L,Boissons,8,1000,Dakar
+2025-10-13,Dentifrice,Hygiène,7,1200,Kaolack
+2025-01-13,Écouteurs sans fil,Électronique,2,12600,Dakar
+2025-10-23,Pagne wax 6 yards,Vêtements,5,12500,Thiès
+2025-03-17,Huile végétale 1L,Alimentation,4,1450,Dakar
+2025-11-07,"Eau minérale 1,5L",Boissons,4,500,Dakar
+2025-01-10,Café moulu 250g,Boissons,6,2550,Kaolack
+2025-03-11,Powerbank 10000mAh,Électronique,2,14700,Kaolack
+2025-12-04,Café moulu 250g,Boissons,7,2400,Dakar
+2025-11-12,Lait en poudre 400g,Alimentation,1,2100,Dakar
+2025-07-29,Shampoing 250ml,Hygiène,7,2850,Thiès
+2025-10-02,T-shirt coton,Vêtements,4,4650,Thiès
+2025-12-18,Lessive 1kg,Hygiène,7,2050,Kaolack
+2025-06-21,Dentifrice,Hygiène,4,1200,Dakar
+2025-12-08,Huile végétale 1L,Alimentation,7,1550,Dakar
+2025-11-08,"Eau minérale 1,5L",Boissons,6,500,Dakar
+2025-02-25,Casquette,Vêtements,6,3050,Kaolack
+2025-10-14,Powerbank 10000mAh,Électronique,3,15500,Kaolack
+2025-11-01,Riz parfumé 5kg,Alimentation,3,3650,Thiès
+2025-11-15,Savon de Marseille,Hygiène,5,700,Ziguinchor
+2025-02-11,Lait en poudre 400g,Alimentation,1,2150,Saint-Louis
+2025-08-16,Savon de Marseille,Hygiène,4,650,Dakar
+2025-02-20,Sucre 1kg,Alimentation,5,750,Saint-Louis
+2025-06-29,Pâtes alimentaires 500g,Alimentation,8,600,Dakar
+2025-11-09,Soda 50cl,Boissons,2,600,Thiès
+2025-12-03,Pagne wax 6 yards,Vêtements,4,12400,Thiès
+2025-05-30,Pagne wax 6 yards,Vêtements,6,12600,Saint-Louis
+2025-10-22,Lessive 1kg,Hygiène,7,1950,Dakar
+2025-10-03,Riz parfumé 5kg,Alimentation,1,3500,Thiès
+2025-11-06,Écouteurs sans fil,Électronique,3,11900,Kaolack
+2025-10-04,Shampoing 250ml,Hygiène,6,2900,Dakar
+2025-12-07,T-shirt coton,Vêtements,4,4600,Thiès
+2025-12-03,Sucre 1kg,Alimentation,6,800,Dakar
+2025-07-27,Pâtes alimentaires 500g,Alimentation,7,600,Thiès
+2025-10-06,Powerbank 10000mAh,Électronique,2,15400,Kaolack
+2025-01-25,Chargeur USB-C,Électronique,3,5100,Thiès
+2025-03-01,T-shirt coton,Vêtements,3,4300,Dakar
+2025-09-30,Pâtes alimentaires 500g,Alimentation,3,600,Dakar
+2025-10-03,T-shirt coton,Vêtements,7,4300,Thiès
+2025-11-13,"Eau minérale 1,5L",Boissons,7,500,Dakar
+2025-11-03,Riz parfumé 5kg,Alimentation,2,3400,Dakar
+2025-07-03,Pâtes alimentaires 500g,Alimentation,6,550,Thiès
+2025-12-26,Savon de Marseille,Hygiène,3,700,Thiès
+2025-06-03,Lessive 1kg,Hygiène,8,1950,Saint-Louis
+2025-09-19,Pagne wax 6 yards,Vêtements,4,11950,Dakar
+2025-12-16,Chargeur USB-C,Électronique,2,4750,Kaolack
+2025-09-09,Sandales,Vêtements,1,6700,Saint-Louis
+2025-06-01,Lessive 1kg,Hygiène,6,2000,Ziguinchor
+2025-12-17,Casquette,Vêtements,1,3000,Thiès
+2025-11-28,Pagne wax 6 yards,Vêtements,5,12050,Dakar
+2025-12-19,Pagne wax 6 yards,Vêtements,4,11600,Dakar
+2025-11-02,Café moulu 250g,Boissons,4,2400,Dakar
+2025-03-18,Pâtes alimentaires 500g,Alimentation,2,600,Dakar
+2025-11-29,Sandales,Vêtements,5,6200,Thiès
+2025-02-12,Pagne wax 6 yards,Vêtements,1,11500,Dakar
+2025-03-27,Pâtes alimentaires 500g,Alimentation,3,550,Thiès
+2025-01-09,Dentifrice,Hygiène,5,1200,Kaolack
+2025-01-15,Huile végétale 1L,Alimentation,6,1450,Dakar
+2025-06-29,Shampoing 250ml,Hygiène,3,2800,Thiès
+2025-12-21,Lait en poudre 400g,Alimentation,6,2150,Kaolack
+2025-10-06,Huile végétale 1L,Alimentation,3,1500,Dakar
+2025-11-05,Pagne wax 6 yards,Vêtements,7,11750,Thiès
+2025-12-08,Shampoing 250ml,Hygiène,1,2700,Saint-Louis
+2025-04-23,Sucre 1kg,Alimentation,4,800,Ziguinchor
+2025-11-16,Café moulu 250g,Boissons,6,2600,Dakar
+2025-08-14,Pagne wax 6 yards,Vêtements,8,11650,Dakar
+2025-01-01,Café moulu 250g,Boissons,3,2450,Dakar
+2025-10-24,Sandales,Vêtements,6,6750,Saint-Louis
+2025-10-02,Sucre 1kg,Alimentation,8,850,Dakar
+2025-12-30,Chargeur USB-C,Électronique,1,4950,Dakar
+2025-01-18,Pagne wax 6 yards,Vêtements,4,12150,Saint-Louis
+2025-10-01,Écouteurs sans fil,Électronique,3,12450,Saint-Louis
+2025-10-07,Café moulu 250g,Boissons,5,2500,Thiès
+2025-03-20,Sucre 1kg,Alimentation,3,750,Dakar
+2025-11-10,Dentifrice,Hygiène,2,1250,Thiès
+2025-10-03,Sucre 1kg,Alimentation,1,850,Saint-Louis
+2025-07-17,Pâtes alimentaires 500g,Alimentation,5,600,Dakar
+2025-03-13,Sucre 1kg,Alimentation,1,850,Saint-Louis
+2025-09-30,Casquette,Vêtements,8,3150,Dakar
+2025-01-02,Chargeur USB-C,Électronique,3,5000,Ziguinchor
+2025-11-30,Café moulu 250g,Boissons,1,2450,Saint-Louis
+2025-11-12,Sucre 1kg,Alimentation,7,800,Saint-Louis
+2025-11-23,Soda 50cl,Boissons,5,600,Thiès
+2025-07-19,Shampoing 250ml,Hygiène,1,2800,Saint-Louis
+2025-12-20,Powerbank 10000mAh,Électronique,2,15450,Dakar
+2025-10-26,Lampe solaire,Électronique,1,8800,Saint-Louis
+2025-02-02,"Eau minérale 1,5L",Boissons,8,500,Saint-Louis
+2025-12-12,Pagne wax 6 yards,Vêtements,3,11900,Dakar
+2025-04-07,Pâtes alimentaires 500g,Alimentation,8,600,Saint-Louis
+2025-11-16,"Eau minérale 1,5L",Boissons,1,500,Kaolack
+2025-09-29,Riz parfumé 5kg,Alimentation,2,3600,Dakar
+2025-12-20,Café moulu 250g,Boissons,6,2500,Dakar
+2025-06-29,Huile végétale 1L,Alimentation,3,1550,Kaolack
+2025-12-29,Dentifrice,Hygiène,7,1150,Thiès
+2025-12-20,Pâtes alimentaires 500g,Alimentation,4,600,Dakar
+2025-06-30,Dentifrice,Hygiène,8,1200,Thiès
+2025-07-31,Lait en poudre 400g,Alimentation,4,2200,Dakar
+2025-05-15,Chargeur USB-C,Électronique,2,4950,Kaolack
+2025-06-19,Soda 50cl,Boissons,3,600,Dakar
+2025-08-13,Lampe solaire,Électronique,1,8700,Thiès
+2025-05-30,Pagne wax 6 yards,Vêtements,2,12250,Dakar
+2025-03-31,Casquette,Vêtements,4,2950,Dakar
+2025-12-27,Lait en poudre 400g,Alimentation,7,2200,Kaolack
+2025-07-06,Riz parfumé 5kg,Alimentation,3,3350,Saint-Louis
+2025-11-21,Riz parfumé 5kg,Alimentation,2,3450,Saint-Louis
+2025-09-25,Chargeur USB-C,Électronique,1,5200,Saint-Louis
+2025-03-24,Powerbank 10000mAh,Électronique,3,14900,Ziguinchor
+2025-02-01,Pâtes alimentaires 500g,Alimentation,2,600,Thiès
+2025-01-08,Pâtes alimentaires 500g,Alimentation,7,600,Dakar
+2025-06-07,Chargeur USB-C,Électronique,1,5000,Dakar
+2025-10-25,Jus de bissap 1L,Boissons,1,1050,Saint-Louis
+2025-02-22,Huile végétale 1L,Alimentation,1,1500,Thiès
+2025-03-07,Jus de bissap 1L,Boissons,2,1000,Thiès
+2025-02-11,Jus de bissap 1L,Boissons,6,950,Dakar
+2025-01-20,Savon de Marseille,Hygiène,6,750,Dakar
+2025-12-15,"Eau minérale 1,5L",Boissons,6,500,Dakar
+2025-05-29,Pagne wax 6 yards,Vêtements,6,11700,Dakar
+2025-12-03,Soda 50cl,Boissons,3,600,Dakar
+2025-02-24,Savon de Marseille,Hygiène,8,700,Saint-Louis
+2025-05-23,Lait en poudre 400g,Alimentation,5,2200,Dakar
+2025-07-09,Soda 50cl,Boissons,6,600,Dakar
+2025-10-01,Sandales,Vêtements,2,6350,Dakar
+2025-12-01,Sucre 1kg,Alimentation,4,850,Dakar
+2025-06-15,Huile végétale 1L,Alimentation,1,1500,Saint-Louis
+2025-05-25,Soda 50cl,Boissons,2,550,Dakar
+2025-11-05,Sucre 1kg,Alimentation,3,850,Dakar
+2025-12-28,Jus de bissap 1L,Boissons,7,1050,Kaolack
+2025-11-02,"Eau minérale 1,5L",Boissons,2,500,Kaolack
+2025-08-06,Sucre 1kg,Alimentation,4,800,Saint-Louis
+2025-10-10,Powerbank 10000mAh,Électronique,3,15500,Thiès
+2025-08-20,"Eau minérale 1,5L",Boissons,7,500,Dakar
+2025-08-21,Lessive 1kg,Hygiène,2,2000,Dakar
+2025-10-04,Huile végétale 1L,Alimentation,8,1500,Dakar
+2025-02-11,Café moulu 250g,Boissons,5,2500,Kaolack
+2025-03-25,Riz parfumé 5kg,Alimentation,5,3350,Dakar
+2025-09-17,"Eau minérale 1,5L",Boissons,7,500,Ziguinchor
+2025-10-16,Dentifrice,Hygiène,7,1150,Ziguinchor
+2025-04-27,Casquette,Vêtements,1,2950,Thiès
+2025-10-11,Lait en poudre 400g,Alimentation,8,2250,Dakar
+2025-03-24,Lessive 1kg,Hygiène,3,2000,Kaolack
+2025-07-24,Café moulu 250g,Boissons,3,2550,Dakar
+2025-05-06,Pagne wax 6 yards,Vêtements,6,12100,Thiès
+2025-10-03,Café moulu 250g,Boissons,7,2550,Dakar
+2025-01-09,Riz parfumé 5kg,Alimentation,6,3400,Thiès
+2025-11-19,Café moulu 250g,Boissons,3,2500,Dakar
+2025-06-09,Dentifrice,Hygiène,2,1150,Dakar
+2025-10-20,Casquette,Vêtements,8,2950,Dakar
+2025-01-27,Chargeur USB-C,Électronique,1,5000,Dakar
+2025-09-29,T-shirt coton,Vêtements,7,4500,Dakar
+2025-04-18,Savon de Marseille,Hygiène,2,650,Thiès
+2025-12-08,Café moulu 250g,Boissons,4,2450,Thiès
+2025-06-29,Riz parfumé 5kg,Alimentation,5,3550,Kaolack
+2025-08-26,Soda 50cl,Boissons,1,550,Thiès
+2025-06-04,Lessive 1kg,Hygiène,7,2000,Dakar
+2025-10-26,Shampoing 250ml,Hygiène,2,2900,Dakar
+2025-08-30,Riz parfumé 5kg,Alimentation,8,3500,Dakar
+2025-03-08,Lessive 1kg,Hygiène,3,1900,Ziguinchor
+2025-09-17,Sucre 1kg,Alimentation,3,850,Dakar
+2025-02-21,Casquette,Vêtements,4,2850,Thiès
+2025-12-10,Pagne wax 6 yards,Vêtements,4,11450,Dakar
+2025-12-13,Sandales,Vêtements,2,6400,Dakar
+2025-10-07,Sandales,Vêtements,8,6300,Dakar
+2025-12-14,Casquette,Vêtements,5,3000,Thiès
+2025-05-07,Chargeur USB-C,Électronique,2,5150,Thiès
+2025-10-10,Chargeur USB-C,Électronique,3,5100,Thiès
+2025-12-03,Jus de bissap 1L,Boissons,4,950,Dakar
+2025-12-06,Jus de bissap 1L,Boissons,4,1000,Dakar
+2025-03-31,Shampoing 250ml,Hygiène,2,2700,Saint-Louis
+2025-10-04,Sucre 1kg,Alimentation,8,800,Saint-Louis
+2025-10-27,Dentifrice,Hygiène,6,1200,Saint-Louis
+2025-02-06,Chargeur USB-C,Électronique,2,5000,Ziguinchor
+2025-12-07,Chargeur USB-C,Électronique,1,4850,Ziguinchor
+2025-01-02,Riz parfumé 5kg,Alimentation,4,3600,Dakar
+2025-10-28,Soda 50cl,Boissons,1,600,Thiès
+2025-12-30,Lampe solaire,Électronique,1,9400,Saint-Louis
+2025-05-09,"Eau minérale 1,5L",Boissons,8,500,Dakar
+2025-07-17,Écouteurs sans fil,Électronique,1,12200,Dakar
+2025-10-26,Huile végétale 1L,Alimentation,8,1450,Saint-Louis
+2025-10-12,Casquette,Vêtements,2,3050,Saint-Louis
+2025-04-23,Lait en poudre 400g,Alimentation,6,2150,Saint-Louis
+2025-11-08,Casquette,Vêtements,6,3150,Dakar
+2025-10-25,Sandales,Vêtements,2,6450,Dakar
+2025-11-27,Café moulu 250g,Boissons,5,2600,Dakar
+2025-04-21,Sucre 1kg,Alimentation,6,800,Dakar
+2025-12-13,Savon de Marseille,Hygiène,6,700,Dakar
+2025-11-03,Powerbank 10000mAh,Électronique,1,15750,Dakar
+2025-12-15,Chargeur USB-C,Électronique,1,4800,Dakar
+2025-02-08,Jus de bissap 1L,Boissons,8,1050,Kaolack
+2025-04-05,Sandales,Vêtements,7,6600,Thiès
+2025-02-01,Sucre 1kg,Alimentation,7,850,Dakar
+2025-03-08,Casquette,Vêtements,4,3000,Dakar
+2025-12-22,Jus de bissap 1L,Boissons,8,950,Kaolack
+2025-05-13,"Eau minérale 1,5L",Boissons,3,500,Thiès
+2025-03-12,Pâtes alimentaires 500g,Alimentation,3,600,Dakar
+2025-09-14,Écouteurs sans fil,Électronique,2,11550,Thiès
+2025-12-07,Sandales,Vêtements,5,6500,Ziguinchor
+2025-11-22,T-shirt coton,Vêtements,2,4300,Thiès
+2025-01-21,Huile végétale 1L,Alimentation,7,1550,Dakar
+2025-12-06,T-shirt coton,Vêtements,7,4450,Dakar
+2025-12-06,Shampoing 250ml,Hygiène,2,2750,Dakar
+2025-01-12,Écouteurs sans fil,Électronique,1,11450,Saint-Louis
+2025-01-07,"Eau minérale 1,5L",Boissons,4,500,Dakar
+2025-04-22,Jus de bissap 1L,Boissons,1,1050,Dakar
+2025-12-29,Pagne wax 6 yards,Vêtements,5,11900,Thiès
+2025-01-28,Shampoing 250ml,Hygiène,2,2750,Kaolack
+2025-01-22,Riz parfumé 5kg,Alimentation,3,3650,Ziguinchor
+2025-02-25,Sucre 1kg,Alimentation,7,800,Dakar
+2025-10-14,Shampoing 250ml,Hygiène,4,2700,Dakar
+2025-01-22,Powerbank 10000mAh,Électronique,1,14550,Kaolack
+2025-07-03,Lampe solaire,Électronique,3,9400,Dakar
+2025-11-07,Pagne wax 6 yards,Vêtements,7,12350,Dakar
+2025-10-31,Lait en poudre 400g,Alimentation,2,2250,Dakar
+2025-12-19,Sucre 1kg,Alimentation,3,850,Thiès
+2025-05-20,Lait en poudre 400g,Alimentation,1,2250,Saint-Louis
+2025-10-02,Shampoing 250ml,Hygiène,5,2800,Dakar
+2025-09-30,Savon de Marseille,Hygiène,5,750,Dakar
+2025-09-30,Chargeur USB-C,Électronique,2,5150,Dakar
+2025-09-04,Lessive 1kg,Hygiène,1,2100,Dakar
+2025-03-04,Shampoing 250ml,Hygiène,1,2800,Ziguinchor
+2025-08-03,Huile végétale 1L,Alimentation,5,1500,Thiès
+2025-05-06,Sandales,Vêtements,1,6800,Dakar
+2025-11-19,Chargeur USB-C,Électronique,1,5150,Dakar
+2025-08-10,Dentifrice,Hygiène,6,1250,Dakar
+2025-03-14,Lampe solaire,Électronique,3,8650,Thiès
+2025-03-06,T-shirt coton,Vêtements,7,4450,Saint-Louis
+2025-09-15,Shampoing 250ml,Hygiène,1,2750,Ziguinchor
+2025-12-03,Pâtes alimentaires 500g,Alimentation,2,550,Thiès
+2025-12-25,Savon de Marseille,Hygiène,1,700,Dakar
+2025-11-28,Casquette,Vêtements,2,2900,Saint-Louis
+2025-11-11,Savon de Marseille,Hygiène,1,750,Thiès
+2025-01-02,Sandales,Vêtements,3,6750,Kaolack
+2025-10-14,Lessive 1kg,Hygiène,4,1900,Kaolack
+2025-10-04,Soda 50cl,Boissons,5,600,Saint-Louis
+2025-03-17,T-shirt coton,Vêtements,7,4350,Dakar
+2025-12-18,Soda 50cl,Boissons,3,600,Dakar
+2025-10-05,Café moulu 250g,Boissons,5,2550,Dakar
+2025-02-13,Savon de Marseille,Hygiène,8,700,Dakar
+2025-05-28,Sucre 1kg,Alimentation,2,850,Thiès
+2025-10-22,Pagne wax 6 yards,Vêtements,7,11900,Dakar
+2025-12-10,T-shirt coton,Vêtements,4,4450,Saint-Louis
+2025-07-05,Chargeur USB-C,Électronique,1,5200,Ziguinchor
+2025-05-16,Powerbank 10000mAh,Électronique,3,14500,Saint-Louis
+2025-12-21,Chargeur USB-C,Électronique,1,4750,Dakar
+2025-08-10,Savon de Marseille,Hygiène,2,700,Dakar
+2025-06-12,Jus de bissap 1L,Boissons,4,1050,Dakar
+2025-11-29,T-shirt coton,Vêtements,2,4400,Dakar
+2025-02-12,Chargeur USB-C,Électronique,3,4950,Saint-Louis
+2025-12-12,Sandales,Vêtements,2,6500,Dakar
+2025-11-21,T-shirt coton,Vêtements,8,4700,Thiès
+2025-05-09,Sucre 1kg,Alimentation,6,800,Thiès
+2025-07-27,Huile végétale 1L,Alimentation,3,1450,Dakar
+2025-12-19,Sucre 1kg,Alimentation,1,800,Thiès
+2025-10-24,Pagne wax 6 yards,Vêtements,4,11700,Ziguinchor
+2025-10-07,Jus de bissap 1L,Boissons,3,1050,Dakar
+2025-01-26,Lessive 1kg,Hygiène,1,1900,Saint-Louis
+2025-05-28,Powerbank 10000mAh,Électronique,2,15350,Saint-Louis
+2025-02-14,Savon de Marseille,Hygiène,3,750,Dakar
+2025-01-08,Powerbank 10000mAh,Électronique,1,14850,Dakar
+2025-02-04,Lessive 1kg,Hygiène,2,1950,Dakar
+2025-09-08,Pagne wax 6 yards,Vêtements,6,12550,Thiès
+2025-12-28,Savon de Marseille,Hygiène,4,750,Saint-Louis
+2025-09-28,Savon de Marseille,Hygiène,7,700,Dakar
+2025-03-26,Café moulu 250g,Boissons,4,2500,Saint-Louis
+2025-11-14,Écouteurs sans fil,Électronique,1,12550,Thiès
+2025-04-21,Écouteurs sans fil,Électronique,2,12050,Thiès
+2025-03-19,Powerbank 10000mAh,Électronique,2,14500,Thiès
+2025-03-27,Pagne wax 6 yards,Vêtements,6,12100,Thiès
+2025-03-30,Pâtes alimentaires 500g,Alimentation,1,550,Dakar
+2025-10-12,Lessive 1kg,Hygiène,7,2050,Thiès
+2025-04-26,Lessive 1kg,Hygiène,7,1950,Dakar
+2025-08-01,"Eau minérale 1,5L",Boissons,3,500,Dakar
+2025-07-23,Lampe solaire,Électronique,3,8650,Dakar
+2025-09-25,Dentifrice,Hygiène,7,1200,Ziguinchor
+2025-12-22,Jus de bissap 1L,Boissons,7,1050,Ziguinchor
+2025-04-09,Riz parfumé 5kg,Alimentation,2,3550,Dakar
+2025-10-29,Chargeur USB-C,Électronique,2,5100,Thiès
+2025-10-06,Powerbank 10000mAh,Électronique,2,14700,Saint-Louis
+2025-09-30,Riz parfumé 5kg,Alimentation,8,3600,Dakar
+2025-04-30,Shampoing 250ml,Hygiène,1,2700,Ziguinchor
+2025-10-09,Savon de Marseille,Hygiène,2,700,Saint-Louis
+2025-04-18,Lampe solaire,Électronique,3,8850,Thiès
+2025-06-18,Casquette,Vêtements,4,3100,Kaolack
+2025-07-03,Chargeur USB-C,Électronique,2,5150,Dakar
+2025-11-05,Café moulu 250g,Boissons,7,2400,Dakar
+2025-03-03,Soda 50cl,Boissons,6,650,Ziguinchor
+2025-07-09,"Eau minérale 1,5L",Boissons,4,500,Saint-Louis
+2025-12-26,Savon de Marseille,Hygiène,4,700,Thiès
+2025-06-27,Savon de Marseille,Hygiène,8,700,Saint-Louis
+2025-08-03,Chargeur USB-C,Électronique,1,4900,Dakar
+2025-01-01,Pagne wax 6 yards,Vêtements,3,12550,Dakar
+2025-03-07,Jus de bissap 1L,Boissons,3,1000,Thiès
+2025-07-25,Shampoing 250ml,Hygiène,7,2650,Ziguinchor
+2025-05-09,Shampoing 250ml,Hygiène,1,2750,Dakar
+2025-11-06,Casquette,Vêtements,7,3100,Thiès
+2025-09-02,Lessive 1kg,Hygiène,2,2100,Kaolack
+2025-12-27,Écouteurs sans fil,Électronique,2,11800,Dakar
+2025-09-18,Soda 50cl,Boissons,7,550,Dakar
+2025-02-09,Soda 50cl,Boissons,6,600,Dakar
+2025-12-06,Riz parfumé 5kg,Alimentation,6,3500,Kaolack
+2025-11-13,Shampoing 250ml,Hygiène,8,2850,Ziguinchor
+2025-07-29,Huile végétale 1L,Alimentation,1,1500,Ziguinchor
+2025-07-30,Powerbank 10000mAh,Électronique,2,14350,Saint-Louis
+2025-11-06,Jus de bissap 1L,Boissons,6,1000,Dakar
+2025-12-20,Café moulu 250g,Boissons,5,2600,Saint-Louis
+2025-01-31,Casquette,Vêtements,1,2900,Dakar
+2025-08-10,Shampoing 250ml,Hygiène,6,2800,Dakar
+2025-07-01,T-shirt coton,Vêtements,3,4300,Dakar
+2025-09-26,Sucre 1kg,Alimentation,2,800,Kaolack
+2025-08-07,"Eau minérale 1,5L",Boissons,4,500,Kaolack
+2025-10-01,Soda 50cl,Boissons,4,600,Saint-Louis
+2025-06-26,Écouteurs sans fil,Électronique,2,11600,Ziguinchor
+2025-03-14,Lessive 1kg,Hygiène,3,2050,Dakar
+2025-11-14,Casquette,Vêtements,8,2900,Dakar
+2025-11-26,T-shirt coton,Vêtements,1,4400,Saint-Louis
+2025-12-20,T-shirt coton,Vêtements,6,4400,Thiès
+2025-08-07,Café moulu 250g,Boissons,5,2400,Saint-Louis
+2025-12-06,Shampoing 250ml,Hygiène,4,2900,Dakar
+2025-10-20,"Eau minérale 1,5L",Boissons,7,500,Ziguinchor
+2025-05-13,"Eau minérale 1,5L",Boissons,2,500,Saint-Louis
+2025-02-28,Pâtes alimentaires 500g,Alimentation,8,600,Ziguinchor
+2025-11-08,Lessive 1kg,Hygiène,6,2000,Dakar
+2025-04-18,Jus de bissap 1L,Boissons,2,1050,Thiès
+2025-04-27,Riz parfumé 5kg,Alimentation,7,3400,Thiès
+2025-12-09,Lampe solaire,Électronique,1,9050,Dakar
+2025-10-17,Sucre 1kg,Alimentation,3,850,Thiès
+2025-02-18,Sandales,Vêtements,8,6600,Saint-Louis
+2025-02-19,Lampe solaire,Électronique,1,8800,Dakar
+2025-10-21,Savon de Marseille,Hygiène,2,700,Kaolack
+2025-09-29,Jus de bissap 1L,Boissons,2,1000,Dakar
+2025-09-25,Dentifrice,Hygiène,4,1250,Dakar
+2025-10-29,Dentifrice,Hygiène,1,1200,Dakar
+2025-07-29,Chargeur USB-C,Électronique,1,5000,Kaolack
+2025-10-21,Sucre 1kg,Alimentation,4,750,Thiès
+2025-01-30,Savon de Marseille,Hygiène,1,750,Saint-Louis
+2025-02-11,Sucre 1kg,Alimentation,4,850,Dakar
+2025-12-02,Huile végétale 1L,Alimentation,4,1450,Saint-Louis
+2025-03-19,Lessive 1kg,Hygiène,5,1900,Ziguinchor
+2025-07-24,Pâtes alimentaires 500g,Alimentation,3,600,Saint-Louis
+2025-05-04,Pâtes alimentaires 500g,Alimentation,1,600,Dakar
+2025-10-06,Sandales,Vêtements,3,6450,Saint-Louis
+2025-06-01,Lait en poudre 400g,Alimentation,6,2150,Dakar
+2025-09-05,Lampe solaire,Électronique,3,9200,Saint-Louis
+2025-11-10,Shampoing 250ml,Hygiène,1,2700,Kaolack
+2025-08-20,Savon de Marseille,Hygiène,2,700,Saint-Louis
+2025-03-26,Dentifrice,Hygiène,8,1150,Saint-Louis
+2025-09-17,Sandales,Vêtements,8,6300,Saint-Louis
+2025-07-06,Riz parfumé 5kg,Alimentation,5,3650,Saint-Louis
+2025-04-24,Shampoing 250ml,Hygiène,1,2850,Dakar
+2025-06-01,Sandales,Vêtements,5,6300,Dakar
+2025-12-11,Café moulu 250g,Boissons,2,2500,Kaolack
+2025-08-03,Pâtes alimentaires 500g,Alimentation,7,600,Dakar
+2025-11-02,"Eau minérale 1,5L",Boissons,6,500,Thiès
+2025-11-01,Lait en poudre 400g,Alimentation,5,2150,Dakar
+2025-01-31,Powerbank 10000mAh,Électronique,3,14850,Dakar
+2025-10-19,T-shirt coton,Vêtements,2,4600,Kaolack
+2025-08-13,Sucre 1kg,Alimentation,4,800,Dakar
+2025-12-16,Huile végétale 1L,Alimentation,7,1450,Dakar
+2025-11-01,Huile végétale 1L,Alimentation,2,1550,Dakar
+2025-11-22,Écouteurs sans fil,Électronique,2,12300,Thiès
+2025-03-09,T-shirt coton,Vêtements,3,4500,Thiès
+2025-03-26,Jus de bissap 1L,Boissons,3,1050,Thiès
+2025-12-02,Chargeur USB-C,Électronique,1,4900,Dakar
+2025-10-01,Casquette,Vêtements,4,2950,Thiès
+2025-07-28,T-shirt coton,Vêtements,1,4450,Saint-Louis
+2025-01-25,Shampoing 250ml,Hygiène,3,2850,Dakar
+2025-05-30,Écouteurs sans fil,Électronique,3,12500,Ziguinchor
+2025-03-01,Soda 50cl,Boissons,6,600,Ziguinchor
+2025-07-02,Sucre 1kg,Alimentation,7,750,Dakar
+2025-08-09,"Eau minérale 1,5L",Boissons,4,500,Ziguinchor
+2025-08-14,Chargeur USB-C,Électronique,1,4900,Saint-Louis
+2025-10-22,Lessive 1kg,Hygiène,4,1950,Dakar
+2025-12-03,Écouteurs sans fil,Électronique,3,11450,Dakar
+2025-10-17,Dentifrice,Hygiène,8,1200,Saint-Louis
+2025-12-17,Café moulu 250g,Boissons,2,2550,Ziguinchor
+2025-10-04,Lait en poudre 400g,Alimentation,3,2100,Ziguinchor
+2025-12-23,Café moulu 250g,Boissons,3,2600,Kaolack
+2025-12-01,Café moulu 250g,Boissons,5,2500,Ziguinchor
+2025-11-22,Café moulu 250g,Boissons,6,2550,Saint-Louis
+2025-01-04,Savon de Marseille,Hygiène,1,700,Saint-Louis
+2025-11-25,Jus de bissap 1L,Boissons,2,950,Saint-Louis
+2025-09-29,Shampoing 250ml,Hygiène,3,2950,Ziguinchor
+2025-11-11,Soda 50cl,Boissons,4,600,Thiès
+2025-09-02,Chargeur USB-C,Électronique,3,5150,Saint-Louis
+2025-12-23,Casquette,Vêtements,7,3100,Dakar
+2025-11-13,Écouteurs sans fil,Électronique,3,12600,Thiès
+2025-01-31,Pagne wax 6 yards,Vêtements,4,12100,Saint-Louis
+2025-11-10,Soda 50cl,Boissons,1,650,Thiès
+2025-12-01,Chargeur USB-C,Électronique,3,5000,Dakar
+2025-04-13,Shampoing 250ml,Hygiène,8,2800,Thiès
+2025-11-15,Sucre 1kg,Alimentation,7,800,Thiès
+2025-08-30,T-shirt coton,Vêtements,7,4600,Dakar
+2025-10-12,Shampoing 250ml,Hygiène,7,2700,Dakar
+2025-06-09,Sandales,Vêtements,6,6600,Saint-Louis
+2025-10-12,Café moulu 250g,Boissons,6,2500,Saint-Louis
+2025-06-16,Pagne wax 6 yards,Vêtements,8,11650,Dakar
+2025-11-10,Sandales,Vêtements,2,6300,Dakar
+2025-08-21,Dentifrice,Hygiène,1,1200,Dakar
+2025-11-23,T-shirt coton,Vêtements,4,4500,Ziguinchor
+2025-01-06,"Eau minérale 1,5L",Boissons,1,500,Dakar
+2025-03-14,Riz parfumé 5kg,Alimentation,2,3500,Dakar
+2025-03-14,Riz parfumé 5kg,Alimentation,2,3500,Dakar
+,Sucre 1kg,Alimentation,3,800,Thiès
+2025-02-30,Soda 50cl,Boissons,2,600,Kaolack
+2025-05-10,Casquette,Vêtements,-2,3000,Dakar
+2025-06-21,Lampe solaire,Électronique,1,n/a,Saint-Louis
+15/07/2025,Savon de Marseille,Hygiène,4,700,dakar
+2025-08-02,  Café moulu 250g ,boissons,2,2 500,Ziguinchor
+2025-09-09,Dentifrice,Hygiène,5,"1200,00",thiès
+2025-10-11,Écouteurs sans fil,Électronique,1,12000,

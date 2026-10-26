@@ -46,3 +46,18 @@ assert.ok(bad.missingColumns.length > 0);
 
 console.log("Tous les tests passent.");
 console.log(report);
+
+// --- Tests des indicateurs ---
+const { computeKpis, revenueByMonth, revenueBy, topProducts } = await import("../lib/analytics.js");
+const kpis = computeKpis(rows);
+assert.equal(kpis.salesCount, rows.length);
+assert.equal(kpis.revenue, rows.reduce((s, r) => s + r.total, 0));
+assert.equal(Math.round(kpis.averageBasket), Math.round(kpis.revenue / rows.length));
+const months = revenueByMonth(rows);
+assert.equal(months.length, 12);
+assert.ok(Math.abs(months.reduce((s, m) => s + m.revenue, 0) - kpis.revenue) < 1e-6);
+assert.equal(revenueBy(rows, "category").length, 5);
+assert.equal(topProducts(rows, 5).length, 5);
+assert.ok(kpis.growth !== null);
+assert.equal(computeKpis([]).salesCount, 0);
+console.log("KPI :", { ...kpis, revenue: kpis.revenue, growth: kpis.growth.toFixed(1) });

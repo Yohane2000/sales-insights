@@ -3,10 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import FileUploader from "@/components/FileUploader";
 import DataQualityReport from "@/components/DataQualityReport";
-import DataTable from "@/components/DataTable";
-import KpiCards from "@/components/KpiCards";
-import Charts from "@/components/Charts";
-import { computeKpis } from "@/lib/analytics";
+import Dashboard from "@/components/Dashboard";
 import AuthPanel from "@/components/AuthPanel";
 import SavedDatasets from "@/components/SavedDatasets";
 import { parseCsv } from "@/lib/parseCsv";
@@ -244,10 +241,7 @@ export default function HomePage() {
               </div>
             )}
 
-            <KpiCards kpis={computeKpis(dataset.rows)} />
-            <Charts rows={dataset.rows} />
-
-            <DataTable rows={dataset.rows} />
+            <Dashboard key={dataset.fileName} rows={dataset.rows} />
           </>
         )}
       </div>

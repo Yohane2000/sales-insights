@@ -1,0 +1,445 @@
+Date;Produit;Catégorie;Quantité;Prix unitaire;Ville
+24/05/2026;Balai;Maison;1;1500;Dakar
+06/09/2026;Câble USB;Téléphonie;5;2000;Dakar
+15/06/2026;Crédit de recharge 5000;Téléphonie;8;5000;Dakar
+16/04/2026;Câble USB;Téléphonie;5;2000;Dakar
+27/04/2026;Coque de téléphone;Téléphonie;6;2500 FCFA;Mbour
+21/07/2026;Riz brisé 25kg;Alimentation;3;14500 FCFA;Mbour
+19/09/2026;Eau minérale 1,5L;Boissons;6;500 FCFA;Dakar
+10/07/2026;Câble USB;Téléphonie;1;2000;Thiès
+18/10/2026;Thé vert 100g;Boissons;5;1 200;Saint-Louis
+06/08/2026;Coque de téléphone;Téléphonie;2;2500;Saint-Louis
+30/04/2026;Jus de gingembre 1L;Boissons;3;1000,00;Thiès
+26/07/2026;Bouilloire;Maison;1;7 000;Kaolack
+02/05/2026;Eau minérale 1,5L;Boissons;6;500;  thiès 
+31/02/2026;Oignons 1kg;Alimentation;4;500;Thiès
+19/05/2026;Soda 33cl;Boissons;1;450 FCFA;Mbour
+14/04/2026;Bouilloire;Maison;2;7000 FCFA;Dakar
+17/02/2026;Sucre 1kg;Alimentation;2;750;Thiès
+26/06/2026;Jus de gingembre 1L;Boissons;3;1000;
+04/09/2026;Oignons 1kg;Alimentation;1;500;Dakar
+12/10/2026;Huile d'arachide 5L;Alimentation;3;6 500;Saint-Louis
+14/01/2026;Cartable;Papeterie;1;9500;Dakar
+27/07/2026;Cahier 100 pages;Papeterie;6;700;Thiès
+17/07/2026;Oignons 1kg;Alimentation;7;500;Dakar
+22/03/2026;Balai;Maison;1;1500,00;Thiès
+20/05/2026;Cahier 100 pages;Papeterie;2;700;Touba
+21/07/2026;Riz brisé 25kg;Alimentation;3;14500 FCFA;Mbour
+11/10/2026;Farine de blé 1kg;Alimentation;7;600,00;Dakar
+hier;Coque de téléphone;Téléphonie;7;2500,00;Saint-Louis
+26/06/2026;Jus de gingembre 1L;Boissons;3;1000;Dakar
+27/09/2026;Jus de gingembre 1L;Boissons;3;1 000;Dakar
+17/04/2026;Bouilloire;Maison;7;7 000;Thiès
+11/10/2026;Oignons 1kg;Alimentation;4;500;DAKAR
+05/07/2026;Oignons 1kg;Alimentation;2;500;Dakar
+28/06/2026;Riz brisé 25kg;Alimentation;1;14500;Touba
+06/10/2026;Écouteurs filaires;Téléphonie;1;3 000;Thiès
+30/03/2026;Stylo bleu (lot de 10);Papeterie;7;1 500;Thiès
+06/09/2026;Cartable;Papeterie;5;9 500;Touba
+30/04/2026;Cartable;Papeterie;3;9500;Saint-Louis
+23/06/2026;Cartable;Papeterie;7;9500;Dakar
+22/06/2026;Oignons 1kg;Alimentation;4;500;Dakar
+24/09/2026;Coque de téléphone;Téléphonie;5;2 500;Saint-Louis
+06/06/2026;Crédit de recharge 5000;Téléphonie;4;5000;Thiès
+17/05/2026;Cartable;Papeterie;2;9500;Mbour
+21/08/2026;Seau plastique;Maison;8;2200;Mbour
+05/05/2026;Soda 33cl;Boissons;6;450;Thiès
+01/06/2026;Concentré de tomate;Alimentation;2;400;Touba
+14/07/2026;Stylo bleu (lot de 10);Papeterie;1;1500;Dakar
+14/09/2026;Balai;Maison;8;1500 FCFA;Thiès
+21/03/2026;Soda 33cl;Boissons;7;450;Kaolack
+25/04/2026;Huile d'arachide 5L;Alimentation;4;6500;Kaolack
+13/10/2026;Farine de blé 1kg;Alimentation;1;600;Dakar
+22/06/2026;Câble USB;Téléphonie;4;2 000;Saint-Louis
+14/04/2026;Riz brisé 25kg;Alimentation;3;14500;Thiès
+27/04/2026;Câble USB;Téléphonie;3;2000;Kaolack
+21/04/2026;Coque de téléphone;Téléphonie;6;2500;Touba
+25/07/2026;Cartable;Papeterie;8;9500 FCFA;Dakar
+05/04/2026;Coque de téléphone;Téléphonie;5;2500,00;Thiès
+25/06/2026;Balai;Maison;7;1500;Kaolack
+11/04/2026;Soda 33cl;Boissons;7;450;Touba
+07/01/2026;THÉ VERT 100G;Boissons;4;1200 FCFA;Kaolack
+02/03/2026;Écouteurs filaires;Téléphonie;3;3000;Touba
+15/04/2026;Sucre 1kg;Alimentation;4;750;Thiès
+17/08/2026;Bouilloire;Maison;4;7000;Mbour
+06/10/2026;Balai;Maison;1;1500;Dakar
+09/09/2026;Sucre 1kg;Alimentation;2;750;Thiès
+27/08/2026;Huile d'arachide 5L;Alimentation;6;6 500;Thiès
+03/07/2026;Farine de blé 1kg;Alimentation;5;600;Saint-Louis
+05/04/2026;Câble USB;Téléphonie;2;2000;Mbour
+18/04/2026;Thé vert 100g;Boissons;4;1200;Saint-Louis
+31/07/2026;Câble USB;Téléphonie;1;2 000;Saint-Louis
+16/09/2026;Seau plastique;Maison;1;2200;Dakar
+11/09/2026;Riz brisé 25kg;Alimentation;2;14500;Saint-Louis
+20/04/2026;Coque de téléphone;Téléphonie;6;2500;Thiès
+15/06/2026;Bouilloire;Maison;5;7000;Thiès
+21/09/2026;Stylo bleu (lot de 10);Papeterie;7;1 500;Saint-Louis
+10/02/2026;Crédit de recharge 5000;Téléphonie;2;5000;Dakar
+21/07/2026;Farine de blé 1kg;Alimentation;6;600;Dakar
+28/04/2026;Natte;Maison;8;4500 FCFA;Dakar
+08/05/2026;Huile d'arachide 5L;Alimentation;4;6500;Thiès
+17/09/2026;Jus de gingembre 1L;Boissons;1;1000;Thiès
+25/05/2026;Soda 33cl;Boissons;6;450;Dakar
+08/09/2026;Soda 33cl;Boissons;6;450;Mbour
+20/02/2026;Balai;Maison;6;1500;Thiès
+18/09/2026;Cartable;Papeterie;7;9500,00;Dakar
+30/03/2026;Riz brisé 25kg;Alimentation;2;14500;Thiès
+14/10/2026;Huile d'arachide 5L;Alimentation;1;6500;Kaolack
+20/01/2026;Farine de blé 1kg;Alimentation;4;600;Touba
+01/07/2026;Stylo bleu (lot de 10);Papeterie;4;1 500;Dakar
+17/10/2026;Jus de gingembre 1L;Boissons;7;1000;Dakar
+26/04/2026;Écouteurs filaires;Téléphonie;3;3000;Kaolack
+02/04/2026;Jus de gingembre 1L;Boissons;3;1 000;Thiès
+23/10/2026;Jus de gingembre 1L;Boissons;4;1000 FCFA;Touba
+16/06/2026;Concentré de tomate;Alimentation;4;400;Touba
+28/04/2026;Riz brisé 25kg;Alimentation;3;14 500;Dakar
+22/07/2026;Stylo bleu (lot de 10);Papeterie;2;1 500;Dakar
+09/05/2026;Thé vert 100g;Boissons;4;1200;Dakar
+27/01/2026;Soda 33cl;Boissons;8;450,00;Dakar
+19/04/2026;Farine de blé 1kg;Alimentation;5;600 FCFA;Mbour
+22/03/2026;Crédit de recharge 5000;Téléphonie;4;5 000;Touba
+06/10/2026;Riz brisé 25kg;Alimentation;3;14500;Mbour
+24/03/2026;Bouilloire;Maison;2;7000;Touba
+25/01/2026;Farine de blé 1kg;Alimentation;4;600;Kaolack
+27/02/2026;Farine de blé 1kg;Alimentation;8;600;
+08/04/2026;Jus de gingembre 1L;Boissons;2;1 000;Kaolack
+20/10/2026;Bouilloire;Maison;2;7000,00;Touba
+29/05/2026;Coque de téléphone;Téléphonie;2;2500,00;Thiès
+27/06/2026;Stylo bleu (lot de 10);Papeterie;8;1500,00;Mbour
+19/06/2026;Câble USB;Téléphonie;4;2000;Dakar
+10/08/2026;Oignons 1kg;Alimentation;3;500;Saint-Louis
+09/05/2026;Coque de téléphone;Téléphonie;3;2500;Saint-Louis
+05/06/2026;Sucre 1kg;Alimentation;1;750;Saint-Louis
+30/07/2026;Sucre 1kg;Alimentation;4;750;Dakar
+23/09/2026;Coque de téléphone;Téléphonie;5;2500;Mbour
+22/06/2026;Écouteurs filaires;Téléphonie;7;3000 FCFA;Kaolack
+27/05/2026;Cartable;Papeterie;4;9500;Touba
+20/02/2026;Eau minérale 1,5L;Boissons;4;500;Dakar
+07/01/2026;Coque de téléphone;Téléphonie;5;2500;Dakar
+08/04/2026;Stylo bleu (lot de 10);Papeterie;6;1500,00;Mbour
+24/01/2026;Crédit de recharge 5000;Téléphonie;6;5000,00;Dakar
+09/05/2026;Thé vert 100g;Boissons;8;1200;Kaolack
+18/03/2026;Natte;Maison;5;4500;Saint-Louis
+12/02/2026;Crédit de recharge 5000;Téléphonie;4;5000,00;Kaolack
+01/04/2026;Seau plastique;Maison;1;2200;Thiès
+01/04/2026;Oignons 1kg;Alimentation;7;500;Dakar
+29/05/2026;Câble USB;Téléphonie;7;2000;Dakar
+17/10/2026;Bouilloire;Maison;3;7 000;Thiès
+04/08/2026;Coque de téléphone;Téléphonie;1;2500;Saint-Louis
+24/03/2026;Jus de gingembre 1L;Boissons;2;1 000;Dakar
+28/09/2026;Soda 33cl;Boissons;4;450 FCFA;Touba
+13/02/2026;Huile d'arachide 5L;Alimentation;5;6500,00;Thiès
+16/02/2026;Concentré de tomate;Alimentation;4;400;Touba
+14/07/2026;Cartable;Papeterie;1;9500;Dakar
+05/06/2026;Sucre 1kg;Alimentation;-2;750;Kaolack
+12/09/2026;Soda 33cl;Boissons;1;450 FCFA;Touba
+29/06/2026;Coque de téléphone;Téléphonie;8;2500,00;Mbour
+27/05/2026;Thé vert 100g;Boissons;4;1200;Thiès
+04/05/2026;Câble USB;Téléphonie;6;2000;Thiès
+20/03/2026;Balai;Maison;6;1500;Dakar
+04/04/2026;Stylo bleu (lot de 10);Papeterie;7;1 500;Thiès
+03/07/2026;Coque de téléphone;Téléphonie;5;2 500;Touba
+24/05/2026;Jus de gingembre 1L;Boissons;8;1000;Thiès
+27/09/2026;Oignons 1kg;Alimentation;4;500;Thiès
+02/10/2026;Seau plastique;Maison;1;2200 FCFA;Kaolack
+21/07/2026;Écouteurs filaires;Téléphonie;1;3000 FCFA;Dakar
+15/05/2026;Seau plastique;Maison;1;2200;Thiès
+30/07/2026;Cartable;Papeterie;4;9500;Saint-Louis
+18/05/2026;Balai;Maison;4;1500;Saint-Louis
+15/08/2026;Crédit de recharge 5000;Téléphonie;5;5000;Saint-Louis
+15/09/2026;Seau plastique;Maison;6;2 200;Dakar
+02/04/2026;Seau plastique;Maison;6;2200;Kaolack
+22/08/2026;Seau plastique;Maison;1;2200 FCFA;Dakar
+15/07/2026;Soda 33cl;Boissons;2;450;Mbour
+05/07/2026;Écouteurs filaires;Téléphonie;6;3000;Kaolack
+10/06/2026;Coque de téléphone;Téléphonie;5;2500,00;Mbour
+02/04/2026;Coque de téléphone;Téléphonie;2;2500;Thiès
+16/10/2026;Sucre 1kg;Alimentation;5;750;Dakar
+17/06/2026;Oignons 1kg;Alimentation;6;500;Thiès
+05/02/2026;Natte;Maison;4;4500;Touba
+22/02/2026;Farine de blé 1kg;Alimentation;8;gratuit;Thiès
+03/08/2026;Eau minérale 1,5L;Boissons;5;500;Mbour
+31/01/2026;Farine de blé 1kg;Alimentation;2;600;Dakar
+04/04/2026;Écouteurs filaires;Téléphonie;6;3000;Touba
+09/05/2026;Stylo bleu (lot de 10);Papeterie;6;1 500;Dakar
+30/07/2026;Natte;Maison;6;4500;Thiès
+26/07/2026;Cartable;Papeterie;8;9500 FCFA;Kaolack
+18/07/2026;Thé vert 100g;Boissons;4;1200;Dakar
+29/03/2026;Farine de blé 1kg;Alimentation;3;600;Thiès
+14/10/2026;Sucre 1kg;Alimentation;5;750;Thiès
+11/06/2026;Thé vert 100g;Boissons;7;1 200;Dakar
+12/07/2026;Farine de blé 1kg;Alimentation;6;600;Thiès
+08/06/2026;Thé vert 100g;Boissons;7;1200;Dakar
+21/08/2026;Riz brisé 25kg;Alimentation;2;14500;Thiès
+24/06/2026;Soda 33cl;Boissons;2;450;Touba
+23/07/2026;Concentré de tomate;Alimentation;5;400;Thiès
+13/04/2026;Concentré de tomate;Alimentation;2;400 FCFA;Thiès
+02/04/2026;Sucre 1kg;Alimentation;4;750,00;Thiès
+13/02/2026;Huile d'arachide 5L;Alimentation;1;6500;Dakar
+15/06/2026;Eau minérale 1,5L;Boissons;7;500;Kaolack
+17/08/2026;Bouilloire;Maison;3;7 000;Mbour
+06/06/2026;Thé vert 100g;Boissons;6;1200;Thiès
+01/03/2026;Coque de téléphone;Téléphonie;1;2500;Dakar
+05/04/2026;Cahier 100 pages;Papeterie;7;700;Dakar
+15/06/2026;Oignons 1kg;Alimentation;4;500;Thiès
+19/08/2026;;Alimentation;2;14500;Thiès
+21/10/2026;Riz brisé 25kg;Alimentation;3;14500;Thiès
+22/07/2026;Bouilloire;Maison;5;7 000;Kaolack
+26/08/2026;Crédit de recharge 5000;Téléphonie;2;5000;Kaolack
+08/02/2026;Jus de gingembre 1L;Boissons;6;1000;Thiès
+10/05/2026;Riz brisé 25kg;Alimentation;2;14500;Thiès
+04/04/2026;Cartable;Papeterie;7;9500;Saint-Louis
+31/07/2026;Cahier 100 pages;Papeterie;4;700;Kaolack
+25/06/2026;Coque de téléphone;Téléphonie;1;2500 FCFA;Dakar
+12/03/2026;Coque de téléphone;Téléphonie;4;2500;Dakar
+10/07/2026;Stylo bleu (lot de 10);Papeterie;3;1500;Dakar
+11/05/2026;Bouilloire;Maison;2;7000;Dakar
+09/01/2026;Riz brisé 25kg;Alimentation;2;14 500;Dakar
+14/07/2026;Riz brisé 25kg;Alimentation;2;14500;Dakar
+03/09/2026;Câble USB;Téléphonie;6;2000;Thiès
+21/08/2026;Bouilloire;Maison;7;7000 FCFA;Dakar
+23/04/2026;Thé vert 100g;Boissons;2;1200;Saint-Louis
+18/07/2026;Concentré de tomate;Alimentation;5;400;Thiès
+19/04/2026;Cahier 100 pages;Papeterie;5;700 FCFA;Dakar
+01/10/2026;Farine de blé 1kg;Alimentation;3;600;Mbour
+16/04/2026;Farine de blé 1kg;Alimentation;4;600;Saint-Louis
+19/04/2026;Câble USB;Téléphonie;1;2000;Mbour
+05/09/2026;Oignons 1kg;Alimentation;5;500;Kaolack
+25/07/2026;Crédit de recharge 5000;Téléphonie;2;5 000;Thiès
+07/06/2026;Bouilloire;Maison;7;7000;Dakar
+07/05/2026;Natte;Maison;7;4500;Touba
+27/02/2026;Eau minérale 1,5L;Boissons;2;500,00;Kaolack
+23/09/2026;Soda 33cl;Boissons;6;450 FCFA;Thiès
+10/02/2026;Farine de blé 1kg;Alimentation;2;600;Thiès
+16/03/2026;Concentré de tomate;Alimentation;1;400,00;Dakar
+03/09/2026;Cahier 100 pages;Papeterie;7;700;Dakar
+07/07/2026;Stylo bleu (lot de 10);Papeterie;1;1500;Thiès
+05/04/2026;Soda 33cl;Boissons;6;450;Dakar
+23/05/2026;Cartable;Papeterie;2;9 500;Mbour
+24/10/2026;Natte;Maison;3;4 500;Dakar
+27/02/2026;Farine de blé 1kg;Alimentation;8;600;Dakar
+03/09/2026;Soda 33cl;Boissons;4;450;Saint-Louis
+07/02/2026;Natte;Maison;5;4500;Touba
+01/10/2026;Bouilloire;Maison;4;7000;Thiès
+28/09/2026;Oignons 1kg;Alimentation;2;500;Mbour
+28/06/2026;Huile d'arachide 5L;Alimentation;2;6500 FCFA;Thiès
+06/02/2026;Huile d'arachide 5L;Alimentation;2;6500;Mbour
+25/05/2026;Cartable;Papeterie;3;9500;Touba
+10/07/2026;Oignons 1kg;Alimentation;8;500;Dakar
+04/09/2026;Stylo bleu (lot de 10);Papeterie;5;1 500;Dakar
+29/08/2026;Cahier 100 pages;Papeterie;5;700;Kaolack
+30/06/2026;Sucre 1kg;Alimentation;5;750;Dakar
+24/06/2026;Eau minérale 1,5L;Boissons;5;500;Dakar
+15/02/2026;Seau plastique;Maison;2;2 200;Dakar
+24/01/2026;Balai;Maison;6;1500;Kaolack
+14/04/2026;Concentré de tomate;Alimentation;8;400;Kaolack
+04/03/2026;Soda 33cl;Boissons;3;450;Saint-Louis
+23/01/2026;Riz brisé 25kg;Alimentation;1;14500;Touba
+15/03/2026;Cartable;Papeterie;7;9500;Saint-Louis
+18/07/2026;Riz brisé 25kg;Alimentation;2;14500;Touba
+03/08/2026;Riz brisé 25kg;Alimentation;1;14500;Dakar
+21/07/2026;RIZ BRISÉ 25KG;Alimentation;3;14500 FCFA;Mbour
+24/10/2026;Oignons 1kg;Alimentation;3;500;Dakar
+15/08/2026;Natte;Maison;6;4500 FCFA;Dakar
+30/09/2026;Stylo bleu (lot de 10);Papeterie;4;1500;Touba
+29/07/2026;Eau minérale 1,5L;Boissons;5;500;Dakar
+06/09/2026;Écouteurs filaires;Téléphonie;3;3000,00;Dakar
+04/08/2026;Écouteurs filaires;Téléphonie;7;3000;Thiès
+25/09/2026;Huile d'arachide 5L;Alimentation;8;6500;Dakar
+16/04/2026;Thé vert 100g;Boissons;6;1200,00;Dakar
+01/03/2026;Câble USB;Téléphonie;2;2000 FCFA;Dakar
+03/09/2026;Câble USB;Téléphonie;6;2000;  thiès 
+15/05/2026;Thé vert 100g;Boissons;8;1200,00;Kaolack
+22/10/2026;Huile d'arachide 5L;Alimentation;2;6500;Saint-Louis
+12/08/2026;Natte;Maison;2;4500;Kaolack
+27/07/2026;Natte;Maison;2;4500 FCFA;Kaolack
+29/08/2026;Balai;Maison;3;1 500;Saint-Louis
+30/07/2026;Bouilloire;Maison;4;7000;Dakar
+04/08/2026;Eau minérale 1,5L;Boissons;7;500;Mbour
+02/08/2026;Huile d'arachide 5L;Alimentation;5;6500;Thiès
+23/06/2026;Natte;Maison;3;4500;Dakar
+14/06/2026;Eau minérale 1,5L;Boissons;7;500;Thiès
+25/08/2026;Soda 33cl;Boissons;8;450;Touba
+03/03/2026;Sucre 1kg;Alimentation;5;750;Thiès
+23/03/2026;Oignons 1kg;Alimentation;5;500;Kaolack
+13/10/2026;Soda 33cl;Boissons;6;450 FCFA;Dakar
+03/07/2026;Farine de blé 1kg;Alimentation;5;;Saint-Louis
+03/04/2026;Huile d'arachide 5L;Alimentation;5;6500;Saint-Louis
+19/06/2026;Riz brisé 25kg;Alimentation;2;14500;Thiès
+17/09/2026;Huile d'arachide 5L;Alimentation;8;6500;Dakar
+14/05/2026;Stylo bleu (lot de 10);Papeterie;7;1500;Touba
+05/02/2026;Soda 33cl;Boissons;8;450;Dakar
+12/10/2026;Eau minérale 1,5L;Boissons;4;500;Dakar
+08/04/2026;Natte;Maison;3;4500;Dakar
+26/07/2026;Écouteurs filaires;Téléphonie;8;3 000;Mbour
+08/08/2026;Crédit de recharge 5000;Téléphonie;2;5000 FCFA;Saint-Louis
+03/07/2026;Sucre 1kg;Alimentation;6;750;Dakar
+21/04/2026;Cahier 100 pages;Papeterie;5;700;Saint-Louis
+02/08/2026;Huile d'arachide 5L;Alimentation;5;6 500;Dakar
+30/03/2026;Natte;Maison;3;4500;Kaolack
+27/02/2026;Huile d'arachide 5L;Alimentation;1;6 500;Kaolack
+18/03/2026;Thé vert 100g;Boissons;8;1 200;Dakar
+01/10/2026;Natte;Maison;5;4500,00;Thiès
+21/09/2026;Bouilloire;Maison;7;7000;Kaolack
+14/03/2026;Cahier 100 pages;Papeterie;4;700 FCFA;Kaolack
+15/01/2026;Cartable;Papeterie;4;9500 FCFA;Dakar
+25/03/2026;Bouilloire;Maison;5;7000;Thiès
+16/04/2026;Crédit de recharge 5000;Téléphonie;1;5000;Dakar
+06/03/2026;Farine de blé 1kg;Alimentation;3;600;Dakar
+24/02/2026;Cartable;Papeterie;5;9 500;Dakar
+07/04/2026;Cahier 100 pages;Papeterie;5;700;Saint-Louis
+03/04/2026;Balai;Maison;2;1500 FCFA;Touba
+08/07/2026;Crédit de recharge 5000;Téléphonie;1;5000;Dakar
+16/07/2026;Stylo bleu (lot de 10);Papeterie;1;1500 FCFA;Kaolack
+08/05/2026;Bouilloire;Maison;4;7000 FCFA;Saint-Louis
+06/08/2026;Bouilloire;Maison;6;7000;Mbour
+02/03/2026;Balai;Maison;6;1500;Dakar
+08/10/2026;Thé vert 100g;Boissons;8;1200,00;Saint-Louis
+23/06/2026;Seau plastique;Maison;3;2200;Dakar
+20/02/2026;Farine de blé 1kg;Alimentation;3;600 FCFA;Saint-Louis
+16/06/2026;Thé vert 100g;Boissons;2;1200 FCFA;Mbour
+12/07/2026;Eau minérale 1,5L;Boissons;3;500;Dakar
+03/09/2026;Câble USB;Téléphonie;6;2000;Thiès
+02/03/2026;Cahier 100 pages;Papeterie;7;700;Thiès
+02/04/2026;Cahier 100 pages;Papeterie;3;700;Mbour
+24/08/2026;Écouteurs filaires;Téléphonie;6;3000;Thiès
+11/03/2026;Écouteurs filaires;Téléphonie;7;3000 FCFA;Dakar
+11/01/2026;Cahier 100 pages;Papeterie;5;700;Touba
+26/02/2026;Seau plastique;Maison;7;2200;Thiès
+04/09/2026;Farine de blé 1kg;Alimentation;6;600;Mbour
+02/09/2026;Concentré de tomate;Alimentation;2;400;Dakar
+07/04/2026;Cahier 100 pages;Papeterie;1;700;Mbour
+04/09/2026;Jus de gingembre 1L;Boissons;3;1000;Mbour
+06/10/2026;Sucre 1kg;Alimentation;5;750;Saint-Louis
+21/10/2026;Bouilloire;Maison;6;7000 FCFA;Touba
+05/06/2026;Sucre 1kg;Alimentation;1;750;Kaolack
+12/08/2026;Soda 33cl;Boissons;4;450 FCFA;Dakar
+12/07/2026;Concentré de tomate;Alimentation;2;400;Thiès
+27/03/2026;Balai;Maison;8;1500;Mbour
+16/09/2026;Riz brisé 25kg;Alimentation;1;14 500;Dakar
+19/08/2026;Riz brisé 25kg;Alimentation;2;14500;Thiès
+12/02/2026;Sucre 1kg;Alimentation;8;750;Mbour
+19/10/2026;Soda 33cl;Boissons;8;450 FCFA;Dakar
+18/04/2026;Câble USB;Téléphonie;5;2000 FCFA;Kaolack
+27/05/2026;Sucre 1kg;Alimentation;4;750;Kaolack
+08/01/2026;Cahier 100 pages;Papeterie;7;700 FCFA;Kaolack
+01/09/2026;Balai;Maison;8;1500;Touba
+09/03/2026;Seau plastique;Maison;6;2200 FCFA;Dakar
+23/05/2026;Soda 33cl;Boissons;6;450,00;Dakar
+23/09/2026;Eau minérale 1,5L;Boissons;6;500;Saint-Louis
+27/05/2026;Bouilloire;Maison;7;7000;Dakar
+06/04/2026;Natte;Maison;4;4500;Thiès
+17/01/2026;Jus de gingembre 1L;Boissons;3;1000;Thiès
+11/10/2026;Coque de téléphone;Téléphonie;7;2500,00;Saint-Louis
+02/09/2026;Écouteurs filaires;Téléphonie;6;3000;Thiès
+15/06/2026;Bouilloire;Maison;5;7000;Thiès
+21/05/2026;Soda 33cl;Boissons;6;450;Thiès
+17/09/2026;Jus de gingembre 1L;Boissons;1;1000;Kaolack
+20/10/2026;Thé vert 100g;Boissons;1;1200;Dakar
+29/01/2026;Cahier 100 pages;Papeterie;7;700 FCFA;Thiès
+03/09/2026;Câble USB;Téléphonie;7;2000;Dakar
+08/02/2026;Jus de gingembre 1L;Boissons;6;1000;
+09/08/2026;Oignons 1kg;Alimentation;6;500;Dakar
+27/05/2026;Sucre 1kg;Alimentation;4;750;DAKAR
+04/10/2026;Farine de blé 1kg;Alimentation;4;600;Dakar
+29/06/2026;Oignons 1kg;Alimentation;2;500;Thiès
+08/04/2026;Oignons 1kg;Alimentation;1;500;Thiès
+09/06/2026;Huile d'arachide 5L;Alimentation;1;6500;Saint-Louis
+24/07/2026;Riz brisé 25kg;Alimentation;2;14500;Kaolack
+13/09/2026;Crédit de recharge 5000;Téléphonie;1;5000;Dakar
+01/04/2026;Natte;Maison;1;4500,00;Thiès
+13/08/2026;Coque de téléphone;Téléphonie;7;2500,00;Touba
+07/03/2026;Crédit de recharge 5000;Téléphonie;6;5000;Dakar
+23/07/2026;Coque de téléphone;Téléphonie;4;2500;Dakar
+17/09/2026;Farine de blé 1kg;Alimentation;7;600;Dakar
+04/07/2026;Balai;Maison;8;1500;Touba
+25/08/2026;Stylo bleu (lot de 10);Papeterie;6;1500;Thiès
+30/06/2026;Câble USB;Téléphonie;7;2000;Touba
+11/10/2026;Oignons 1kg;Alimentation;4;500;Thiès
+14/08/2026;Oignons 1kg;Alimentation;8;500;Mbour
+01/04/2026;Cahier 100 pages;Papeterie;6;700;Mbour
+02/05/2026;Eau minérale 1,5L;Boissons;6;500;Mbour
+14/09/2026;Cartable;Papeterie;4;9500 FCFA;Dakar
+13/09/2026;Concentré de tomate;Alimentation;1;400;Thiès
+07/06/2026;Cartable;Papeterie;1;9500,00;Dakar
+23/05/2026;Huile d'arachide 5L;Alimentation;1;6 500;Dakar
+19/03/2026;Natte;Maison;2;4500;Dakar
+09/01/2026;Riz brisé 25kg;Alimentation;2,5;14 500;Dakar
+12/03/2026;Sucre 1kg;Alimentation;7;750;Touba
+06/04/2026;Thé vert 100g;Boissons;1;1 200;Mbour
+25/05/2026;Coque de téléphone;Téléphonie;3;2500;Mbour
+31/07/2026;Farine de blé 1kg;Alimentation;8;600,00;Mbour
+14/09/2026;Farine de blé 1kg;Alimentation;5;600;Thiès
+08/08/2026;Cahier 100 pages;Papeterie;3;700;Thiès
+03/05/2026;Concentré de tomate;Alimentation;4;400;Mbour
+23/07/2026;Thé vert 100g;Boissons;1;1200;Kaolack
+08/08/2026;Bouilloire;Maison;4;7000,00;Saint-Louis
+14/09/2026;;Maison;8;1500 FCFA;Thiès
+18/06/2026;Sucre 1kg;Alimentation;1;750;Dakar
+24/06/2026;Riz brisé 25kg;Alimentation;1;14500 FCFA;Dakar
+17/01/2026;Cahier 100 pages;Papeterie;4;700;Dakar
+24/04/2026;Thé vert 100g;Boissons;7;1200;Mbour
+23/06/2026;Thé vert 100g;Boissons;6;1200;Dakar
+18/02/2026;Cartable;Papeterie;8;9500;Kaolack
+23/02/2026;Bouilloire;Maison;7;7 000;Thiès
+10/04/2026;Bouilloire;Maison;2;7000;Thiès
+28/03/2026;Eau minérale 1,5L;Boissons;5;500 FCFA;Thiès
+21/07/2026;Câble USB;Téléphonie;8;2000;Mbour
+21/08/2026;Sucre 1kg;Alimentation;5;750;Thiès
+24/05/2026;Crédit de recharge 5000;Téléphonie;4;5000;Mbour
+16/05/2026;Natte;Maison;1;4500;Thiès
+22/05/2026;Sucre 1kg;Alimentation;2;750;Dakar
+22/03/2026;Balai;Maison;1;1500,00;Thiès
+03/10/2026;Oignons 1kg;Alimentation;3;500,00;Thiès
+01/04/2026;Cartable;Papeterie;7;9500;Thiès
+29/03/2026;Seau plastique;Maison;1;2200;Dakar
+03/09/2026;Câble USB;Téléphonie;6;2000;Thiès
+28/03/2026;Bouilloire;Maison;5;7000,00;Dakar
+28/09/2026;Huile d'arachide 5L;Alimentation;6;6500,00;Thiès
+08/08/2026;Bouilloire;Maison;3;7000;Kaolack
+13/07/2026;Stylo bleu (lot de 10);Papeterie;4;1500;Touba
+16/04/2026;Farine de blé 1kg;Alimentation;6;600;Dakar
+18/09/2026;Écouteurs filaires;Téléphonie;8;3000;Kaolack
+29/07/2026;Stylo bleu (lot de 10);Papeterie;6;1500,00;Dakar
+11/04/2026;Concentré de tomate;Alimentation;3;400;Dakar
+11/04/2026;Écouteurs filaires;Téléphonie;1;3000;Dakar
+21/09/2026;Bouilloire;Maison;1;7000;Touba
+16/06/2026;Stylo bleu (lot de 10);Papeterie;8;1500;Touba
+17/08/2026;Balai;Maison;3;1500 FCFA;Touba
+12/05/2026;Cahier 100 pages;Papeterie;4;700;Kaolack
+08/03/2026;Eau minérale 1,5L;Boissons;3;500;Kaolack
+26/09/2026;Jus de gingembre 1L;Boissons;1;1000;Touba
+02/10/2026;Seau plastique;Maison;1;2200 FCFA;Kaolack
+09/04/2026;Huile d'arachide 5L;Alimentation;4;6500 FCFA;Kaolack
+26/02/2026;Stylo bleu (lot de 10);Papeterie;4;1 500;Touba
+03/02/2026;Écouteurs filaires;Téléphonie;8;3000;Dakar
+22/02/2026;Farine de blé 1kg;Alimentation;8;600;Thiès
+02/03/2026;Coque de téléphone;Téléphonie;8;2500;Dakar
+12/03/2026;Cartable;Papeterie;6;9500;Mbour
+05/07/2026;Oignons 1kg;Alimentation;0;500;Dakar
+22/09/2026;Thé vert 100g;Boissons;3;1200;Thiès
+28/06/2026;Sucre 1kg;Alimentation;4;750 FCFA;Dakar
+28/07/2026;Farine de blé 1kg;Alimentation;1;600;Thiès
+07/10/2026;Oignons 1kg;Alimentation;7;500;Thiès
+29/04/2026;Cahier 100 pages;Papeterie;2;700;Thiès
+07/02/2026;Huile d'arachide 5L;Alimentation;1;6500;Dakar
+07/01/2026;Thé vert 100g;Boissons;4;1200 FCFA;Kaolack
+16/04/2026;Thé vert 100g;Boissons;5;1 200;Thiès
+09/02/2026;Oignons 1kg;Alimentation;1;500;Saint-Louis
+10/04/2026;Bouilloire;Maison;5;7 000;Dakar
+07/04/2026;Écouteurs filaires;Téléphonie;4;3 000;Thiès
+01/09/2026;Sucre 1kg;Alimentation;2;750;Thiès
+05/09/2026;Bouilloire;Maison;1;7 000;Thiès
+05/05/2026;Riz brisé 25kg;Alimentation;1;14 500;Kaolack
+11/08/2026;Cartable;Papeterie;2;9500;Dakar
+06/04/2026;Bouilloire;Maison;5;7 000;Thiès
+13/01/2026;Crédit de recharge 5000;Téléphonie;8;5000 FCFA;Thiès
+09/07/2026;Farine de blé 1kg;Alimentation;3;600,00;Dakar
+29/06/2026;Balai;Maison;1;1500 FCFA;Dakar
+24/04/2026;Soda 33cl;Boissons;8;450;Thiès
+15/04/2026;Concentré de tomate;Alimentation;8;400 FCFA;Kaolack
+09/04/2026;Câble USB;Téléphonie;7;2 000;Touba
+27/08/2026;Stylo bleu (lot de 10);Papeterie;6;1500;Dakar
+05/06/2026;Stylo bleu (lot de 10);Papeterie;6;1500;Kaolack
+16/10/2026;Eau minérale 1,5L;Boissons;4;500,00;Mbour
+02/05/2026;Soda 33cl;Boissons;3;450;Touba

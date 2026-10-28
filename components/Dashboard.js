@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Filters from "@/components/Filters";
 import KpiCards from "@/components/KpiCards";
-import Charts from "@/components/Charts";
+import { Breakdowns, MonthlyChart } from "@/components/Charts";
 import DataTable from "@/components/DataTable";
 import { computeKpis } from "@/lib/analytics";
 import { downloadCsv } from "@/lib/exportCsv";
@@ -22,12 +22,14 @@ export default function Dashboard({ rows }) {
   const filtered = useMemo(() => filterRows(rows, filters), [rows, filters]);
   const kpis = useMemo(() => computeKpis(filtered), [filtered]);
 
+  const reset = () => setFilters(EMPTY_FILTERS);
+
   return (
     <>
       <Filters
         filters={filters}
         onChange={setFilters}
-        onReset={() => setFilters(EMPTY_FILTERS)}
+        onReset={reset}
         categories={categories}
         cities={cities}
         resultCount={filtered.length}
@@ -36,13 +38,19 @@ export default function Dashboard({ rows }) {
       />
 
       {filtered.length === 0 ? (
-        <p className="rounded-xl border border-slate-200 bg-white px-4 py-10 text-center text-slate-500">
-          Aucune vente ne correspond à ces filtres.
-        </p>
+        <div className="panel empty-state">
+          <p>Aucune vente ne correspond à ces filtres.</p>
+          <button type="button" onClick={reset} className="btn btn-secondary">
+            Réinitialiser les filtres
+          </button>
+        </div>
       ) : (
         <>
-          <KpiCards kpis={kpis} />
-          <Charts rows={filtered} />
+          <div className="overview">
+            <KpiCards kpis={kpis} />
+            <MonthlyChart rows={filtered} bare />
+          </div>
+          <Breakdowns rows={filtered} />
           <DataTable rows={filtered} />
         </>
       )}

@@ -1,57 +1,61 @@
 import { formatCurrency, formatNumber } from "@/lib/format";
 
-function Card({ label, value, hint, trend }) {
-  const trendStyle =
-    trend === "up"
-      ? "text-emerald-700"
-      : trend === "down"
-      ? "text-red-700"
-      : "text-slate-500";
+function Item({ label, value, hint, trend }) {
   return (
-    <div className="rounded-xl border border-slate-200 bg-white p-4">
-      <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-        {label}
-      </p>
-      <p className="mt-1 text-2xl font-semibold tabular-nums text-slate-900">
+    <div className="kpi-item">
+      <dt>{label}</dt>
+      <dd className={trend ? `kpi-${trend}` : undefined}>
         {value}
-      </p>
-      {hint && <p className={`mt-1 text-xs ${trendStyle}`}>{hint}</p>}
+        {hint && <p className="kpi-hint">{hint}</p>}
+      </dd>
     </div>
   );
 }
 
+/**
+ * Bloc des indicateurs : le chiffre d'affaires en grand,
+ * les quatre autres indicateurs dessous.
+ */
 export default function KpiCards({ kpis }) {
   let growthValue = "—";
   let growthHint = "Au moins deux mois de données requis";
-  let trend = "flat";
+  let trend = null;
   if (kpis.growth !== null) {
     const arrow = kpis.growth >= 0 ? "▲" : "▼";
     const sign = kpis.growth >= 0 ? "+" : "";
-    growthValue = `${sign}${kpis.growth.toFixed(1).replace(".", ",")} %`;
-    growthHint = `${arrow} ${kpis.growthLabel}`;
+    growthValue = `${arrow} ${sign}${kpis.growth.toFixed(1).replace(".", ",")} %`;
+    growthHint = kpis.growthLabel;
     trend = kpis.growth >= 0 ? "up" : "down";
   }
 
   return (
-    <section aria-labelledby="kpi-title">
-      <h2 id="kpi-title" className="text-lg font-semibold text-slate-900">
+    <section aria-labelledby="kpi-title" className="kpi-board">
+      <h2 id="kpi-title" className="visually-hidden">
         Indicateurs clés
       </h2>
-      <div className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-5">
-        <Card label="Chiffre d'affaires" value={formatCurrency(kpis.revenue)} />
-        <Card label="Nombre de ventes" value={formatNumber(kpis.salesCount)} />
-        <Card
+
+      <div>
+        <p className="kpi-hero-label">Chiffre d&apos;affaires</p>
+        <p className="kpi-hero-value">
+          <span>{formatNumber(Math.round(kpis.revenue))}</span>
+          <span className="kpi-hero-unit">FCFA</span>
+        </p>
+      </div>
+
+      <dl className="kpi-list">
+        <Item label="Nombre de ventes" value={formatNumber(kpis.salesCount)} />
+        <Item
           label="Panier moyen"
           value={formatCurrency(Math.round(kpis.averageBasket))}
         />
-        <Card label="Unités vendues" value={formatNumber(kpis.units)} />
-        <Card
+        <Item label="Unités vendues" value={formatNumber(kpis.units)} />
+        <Item
           label="Croissance mensuelle"
           value={growthValue}
           hint={growthHint}
           trend={trend}
         />
-      </div>
+      </dl>
     </section>
   );
 }

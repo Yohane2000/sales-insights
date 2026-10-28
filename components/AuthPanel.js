@@ -37,17 +37,14 @@ export default function AuthPanel({ supabase, session }) {
 
   if (session) {
     return (
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm">
-        <span className="text-slate-600">
-          Connecté en tant que{" "}
-          <span className="font-medium text-slate-900">
-            {session.user.email}
-          </span>
+      <div className="panel auth-session">
+        <span>
+          Connecté en tant que <strong>{session.user.email}</strong>
         </span>
         <button
           type="button"
           onClick={() => supabase.auth.signOut()}
-          className="rounded-md border border-slate-300 px-3 py-1.5 text-slate-700 hover:bg-slate-50"
+          className="btn btn-secondary btn-small"
         >
           Se déconnecter
         </button>
@@ -56,18 +53,15 @@ export default function AuthPanel({ supabase, session }) {
   }
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="rounded-xl border border-slate-200 bg-white p-4"
-    >
-      <p className="text-sm font-semibold text-slate-900">
+    <form onSubmit={handleSubmit} className="panel auth">
+      <p className="auth-title">
         {mode === "signin" ? "Connexion" : "Créer un compte"}
       </p>
-      <p className="mt-0.5 text-xs text-slate-500">
-        Optionnel : connectez-vous pour sauvegarder vos jeux de données.
+      <p className="auth-hint">
+        Facultatif : connectez-vous pour enregistrer vos jeux de données.
       </p>
 
-      <div className="mt-3 grid gap-3 sm:grid-cols-[1fr_1fr_auto]">
+      <div className="auth-fields">
         <input
           type="email"
           required
@@ -76,7 +70,7 @@ export default function AuthPanel({ supabase, session }) {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Adresse e-mail"
           aria-label="Adresse e-mail"
-          className="rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          className="input"
         />
         <input
           type="password"
@@ -87,13 +81,9 @@ export default function AuthPanel({ supabase, session }) {
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Mot de passe (6 caractères min.)"
           aria-label="Mot de passe"
-          className="rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+          className="input"
         />
-        <button
-          type="submit"
-          disabled={busy}
-          className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 disabled:opacity-50"
-        >
+        <button type="submit" disabled={busy} className="btn btn-primary">
           {mode === "signin" ? "Se connecter" : "S'inscrire"}
         </button>
       </div>
@@ -104,7 +94,8 @@ export default function AuthPanel({ supabase, session }) {
           setMode(mode === "signin" ? "signup" : "signin");
           setMessage(null);
         }}
-        className="mt-3 text-xs text-indigo-600 hover:underline"
+        className="btn-link"
+        style={{ marginTop: "0.75rem" }}
       >
         {mode === "signin"
           ? "Pas de compte ? Créer un compte"
@@ -114,11 +105,10 @@ export default function AuthPanel({ supabase, session }) {
       {message && (
         <p
           role={message.type === "error" ? "alert" : "status"}
-          className={`mt-3 rounded-lg px-3 py-2 text-sm ${
-            message.type === "error"
-              ? "bg-red-50 text-red-800 ring-1 ring-red-200"
-              : "bg-emerald-50 text-emerald-800 ring-1 ring-emerald-200"
+          className={`alert ${
+            message.type === "error" ? "alert-error" : "alert-ok"
           }`}
+          style={{ marginTop: "0.75rem" }}
         >
           {message.text}
         </p>

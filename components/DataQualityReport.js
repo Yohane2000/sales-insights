@@ -1,17 +1,10 @@
 import { formatDate, formatNumber } from "@/lib/format";
 
-function Stat({ label, value, tone = "default" }) {
-  const tones = {
-    default: "text-slate-900",
-    good: "text-emerald-600",
-    warn: "text-amber-600",
-  };
+function Figure({ label, value, text = false }) {
   return (
-    <div className="rounded-xl border border-slate-200 bg-white p-4">
-      <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-        {label}
-      </p>
-      <p className={`mt-1 text-2xl font-semibold ${tones[tone]}`}>{value}</p>
+    <div className="figure">
+      <dt>{label}</dt>
+      <dd className={text ? "figure-text" : undefined}>{value}</dd>
     </div>
   );
 }
@@ -26,48 +19,57 @@ export default function DataQualityReport({ report, fileName }) {
     ["Doublons", report.duplicates],
   ].filter(([, count]) => count > 0);
 
+  const keptShare =
+    report.totalRows > 0 ? (report.keptRows / report.totalRows) * 100 : 100;
+  const isDemo = fileName === "demo-sales.csv";
+
   return (
-    <section aria-labelledby="quality-title">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h2 id="quality-title" className="text-lg font-semibold text-slate-900">
+    <section aria-labelledby="quality-title" className="panel quality">
+      <div className="section-head">
+        <h2 id="quality-title" className="section-title">
           Qualité des données
         </h2>
-        <p className="text-sm text-slate-500">
-          Fichier : <span className="font-medium">{fileName}</span>
+        <p className="section-meta">
+          Fichier : <strong>{fileName}</strong>
+          {isDemo ? " (données fictives)" : ""}
         </p>
       </div>
 
-      <div className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-4">
-        <Stat label="Lignes lues" value={formatNumber(report.totalRows)} />
-        <Stat
-          label="Lignes conservées"
-          value={formatNumber(report.keptRows)}
-          tone="good"
+      <div
+        className="quality-bar"
+        role="img"
+        aria-label={`${formatNumber(report.keptRows)} lignes conservées sur ${formatNumber(
+          report.totalRows
+        )}`}
+      >
+        <div className="quality-bar-kept" style={{ width: `${keptShare}%` }} />
+        <div
+          className="quality-bar-removed"
+          style={{ width: `${100 - keptShare}%` }}
         />
-        <Stat
-          label="Lignes retirées"
-          value={formatNumber(report.removedRows)}
-          tone={report.removedRows > 0 ? "warn" : "default"}
-        />
-        <Stat
+      </div>
+
+      <dl className="quality-figures">
+        <Figure label="Lignes lues" value={formatNumber(report.totalRows)} />
+        <Figure label="Conservées" value={formatNumber(report.keptRows)} />
+        <Figure label="Retirées" value={formatNumber(report.removedRows)} />
+        <Figure
           label="Période"
+          text
           value={
             report.dateRange
-              ? `${formatDate(report.dateRange.from)} → ${formatDate(
+              ? `Du ${formatDate(report.dateRange.from)} au ${formatDate(
                   report.dateRange.to
                 )}`
               : "—"
           }
         />
-      </div>
+      </dl>
 
       {details.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2 text-sm">
+        <ul className="quality-reasons" aria-label="Lignes retirées, par motif">
           {details.map(([label, count]) => (
-            <li
-              key={label}
-              className="rounded-full bg-amber-50 px-3 py-1 text-amber-800 ring-1 ring-amber-200"
-            >
+            <li key={label} className="tag">
               {label} : {formatNumber(count)}
             </li>
           ))}

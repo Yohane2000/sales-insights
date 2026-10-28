@@ -37,6 +37,23 @@ function reportFromRows(rows) {
   };
 }
 
+/** Trois barres qui montent, la plus haute en ocre : comme le pic du graphique. */
+function BrandMark() {
+  return (
+    <svg
+      width="28"
+      height="28"
+      viewBox="0 0 28 28"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <rect x="3" y="14" width="6" height="11" rx="1.5" fill="#3547c9" />
+      <rect x="11" y="8" width="6" height="17" rx="1.5" fill="#3547c9" />
+      <rect x="19" y="3" width="6" height="22" rx="1.5" fill="#c77d00" />
+    </svg>
+  );
+}
+
 export default function HomePage() {
   const [dataset, setDataset] = useState(null); // { fileName, rows, report, saved }
   const [error, setError] = useState("");
@@ -174,43 +191,58 @@ export default function HomePage() {
   }
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900">
-          Sales Insights
-        </h1>
-        <p className="mt-1 text-slate-600">
-          Importez vos ventes, nettoyez les données et explorez vos indicateurs.
-        </p>
+    <>
+      <header className="site-header">
+        <div className="wrap header-inner">
+          <div className="brand">
+            <BrandMark />
+            <h1 className="brand-name">Sales Insights</h1>
+          </div>
+          <a
+            className="header-link"
+            href="https://github.com/Yohane2000/sales-insights"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Code source
+          </a>
+        </div>
       </header>
 
-      <div className="space-y-8">
-        {isSupabaseConfigured && (
-          <AuthPanel supabase={supabase} session={session} />
+      <main className="wrap main">
+        {!dataset && (
+          <div className="intro">
+            <h2>Comprenez vos ventes à partir d&apos;un simple fichier CSV.</h2>
+            <p>
+              Les doublons et les erreurs sont retirés, puis vous filtrez par
+              période, catégorie et ville. Vos données restent dans votre
+              navigateur tant que vous ne les enregistrez pas.
+            </p>
+          </div>
         )}
 
-        <FileUploader
-          onFile={handleFile}
-          onDemo={handleDemo}
-          loading={loading}
-        />
+        <div className="stack">
+          {isSupabaseConfigured && (
+            <AuthPanel supabase={supabase} session={session} />
+          )}
 
-        {error && (
-          <p
-            role="alert"
-            className="rounded-lg bg-red-50 px-4 py-3 text-sm text-red-800 ring-1 ring-red-200"
-          >
-            {error}
-          </p>
-        )}
-        {notice && (
-          <p
-            role="status"
-            className="rounded-lg bg-emerald-50 px-4 py-3 text-sm text-emerald-800 ring-1 ring-emerald-200"
-          >
-            {notice}
-          </p>
-        )}
+          <FileUploader
+            onFile={handleFile}
+            onDemo={handleDemo}
+            loading={loading}
+            compact={Boolean(dataset)}
+          />
+
+          {error && (
+            <p role="alert" className="alert alert-error">
+              {error}
+            </p>
+          )}
+          {notice && (
+            <p role="status" className="alert alert-ok">
+              {notice}
+            </p>
+          )}
 
         {session && (
           <SavedDatasets
@@ -234,7 +266,7 @@ export default function HomePage() {
                   type="button"
                   onClick={handleSave}
                   disabled={loading}
-                  className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-emerald-700 disabled:opacity-50"
+                  className="btn btn-primary"
                 >
                   Enregistrer dans mon compte
                 </button>
@@ -244,7 +276,8 @@ export default function HomePage() {
             <Dashboard key={dataset.fileName} rows={dataset.rows} />
           </>
         )}
-      </div>
-    </main>
+        </div>
+      </main>
+    </>
   );
 }

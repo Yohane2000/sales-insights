@@ -2,7 +2,25 @@
 
 import { useRef, useState } from "react";
 
-export default function FileUploader({ onFile, onDemo, loading }) {
+const EXPECTED_COLUMNS = [
+  "Date",
+  "Produit",
+  "Catégorie",
+  "Quantité",
+  "Prix",
+  "Ville",
+];
+
+/**
+ * Zone d'import. `compact` affiche une version courte une fois
+ * qu'un fichier est chargé, pour laisser la place au tableau de bord.
+ */
+export default function FileUploader({
+  onFile,
+  onDemo,
+  loading,
+  compact = false,
+}) {
   const inputRef = useRef(null);
   const [dragging, setDragging] = useState(false);
 
@@ -10,6 +28,32 @@ export default function FileUploader({ onFile, onDemo, loading }) {
     const file = files?.[0];
     if (file) onFile(file);
   }
+
+  const buttons = (
+    <div className="dropzone-actions">
+      <button
+        type="button"
+        onClick={() => inputRef.current?.click()}
+        disabled={loading}
+        className={`btn ${compact ? "btn-secondary btn-small" : "btn-primary"}`}
+      >
+        Choisir un fichier
+      </button>
+      <button
+        type="button"
+        onClick={onDemo}
+        disabled={loading}
+        className={`btn btn-secondary ${compact ? "btn-small" : ""}`}
+      >
+        Charger les données de démo
+      </button>
+      {loading && (
+        <span role="status" className="dropzone-status">
+          Lecture du fichier…
+        </span>
+      )}
+    </div>
+  );
 
   return (
     <div
@@ -23,43 +67,36 @@ export default function FileUploader({ onFile, onDemo, loading }) {
         setDragging(false);
         handleFiles(e.dataTransfer.files);
       }}
-      className={`rounded-2xl border-2 border-dashed p-10 text-center transition ${
-        dragging
-          ? "border-indigo-500 bg-indigo-50"
-          : "border-slate-300 bg-white"
-      }`}
+      data-dragging={dragging}
+      aria-busy={loading}
+      className={compact ? "dropzone dropzone-compact" : "dropzone"}
     >
-      <p className="text-lg font-semibold text-slate-800">
-        Glissez votre fichier CSV de ventes ici
-      </p>
-      <p className="mt-1 text-sm text-slate-500">
-        Colonnes attendues : date, produit, catégorie, quantité, prix, ville
-      </p>
-
-      <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-        <button
-          type="button"
-          onClick={() => inputRef.current?.click()}
-          disabled={loading}
-          className="rounded-lg bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 disabled:opacity-50"
-        >
-          Choisir un fichier
-        </button>
-        <button
-          type="button"
-          onClick={onDemo}
-          disabled={loading}
-          className="rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-50"
-        >
-          Charger les données de démo
-        </button>
-      </div>
+      {compact ? (
+        <>
+          <p className="dropzone-title">Importer un autre fichier CSV</p>
+          {buttons}
+        </>
+      ) : (
+        <>
+          <p className="dropzone-title">Déposez votre fichier CSV ici</p>
+          <p className="dropzone-hint">
+            Une ligne par vente, avec ces colonnes. Les noms en anglais
+            fonctionnent aussi.
+          </p>
+          <ul className="col-strip" aria-label="Colonnes attendues">
+            {EXPECTED_COLUMNS.map((name) => (
+              <li key={name}>{name}</li>
+            ))}
+          </ul>
+          {buttons}
+        </>
+      )}
 
       <input
         ref={inputRef}
         type="file"
         accept=".csv,text/csv"
-        className="hidden"
+        hidden
         onChange={(e) => {
           handleFiles(e.target.files);
           e.target.value = "";

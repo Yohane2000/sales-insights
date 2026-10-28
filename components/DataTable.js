@@ -58,8 +58,8 @@ export default function DataTable({ rows }) {
 
   return (
     <section aria-labelledby="table-title">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <h2 id="table-title" className="text-lg font-semibold text-slate-900">
+      <div className="section-head">
+        <h2 id="table-title" className="section-title">
           Données nettoyées
         </h2>
         <input
@@ -69,14 +69,15 @@ export default function DataTable({ rows }) {
             setQuery(e.target.value);
             setPage(1);
           }}
-          placeholder="Rechercher (produit, ville, catégorie…)"
-          className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 sm:w-72"
+          placeholder="Rechercher un produit, une ville…"
+          aria-label="Rechercher dans le tableau"
+          className="input search"
         />
       </div>
 
-      <div className="mt-3 overflow-x-auto rounded-xl border border-slate-200 bg-white">
-        <table className="min-w-full text-sm">
-          <thead className="bg-slate-50 text-left text-slate-600">
+      <div className="table-wrap">
+        <table className="table">
+          <thead>
             <tr>
               {COLUMNS.map(({ key, numeric }) => {
                 const active = sort.key === key;
@@ -91,17 +92,15 @@ export default function DataTable({ rows }) {
                           : "descending"
                         : "none"
                     }
-                    className={`px-4 py-3 font-medium ${
-                      numeric ? "text-right" : ""
-                    }`}
+                    className={numeric ? "num" : undefined}
                   >
                     <button
                       type="button"
                       onClick={() => toggleSort(key)}
-                      className="inline-flex items-center gap-1 hover:text-slate-900"
+                      className="sort-button"
                     >
                       {COLUMN_LABELS[key]}
-                      <span aria-hidden="true" className="text-xs">
+                      <span aria-hidden="true" className="sort-mark">
                         {active ? (sort.direction === "asc" ? "▲" : "▼") : ""}
                       </span>
                     </button>
@@ -110,15 +109,17 @@ export default function DataTable({ rows }) {
               })}
             </tr>
           </thead>
-          <tbody className="divide-y divide-slate-100">
+          <tbody>
             {visible.map((row) => (
-              <tr key={row.id} className="hover:bg-slate-50">
+              <tr key={row.id}>
                 {COLUMNS.map(({ key, numeric, render }) => (
                   <td
                     key={key}
-                    className={`whitespace-nowrap px-4 py-2.5 ${
-                      numeric ? "text-right tabular-nums" : ""
-                    }`}
+                    className={
+                      [numeric ? "num" : "", key === "total" ? "total" : ""]
+                        .filter(Boolean)
+                        .join(" ") || undefined
+                    }
                   >
                     {render ? render(row[key]) : row[key]}
                   </td>
@@ -127,11 +128,8 @@ export default function DataTable({ rows }) {
             ))}
             {visible.length === 0 && (
               <tr>
-                <td
-                  colSpan={COLUMNS.length}
-                  className="px-4 py-8 text-center text-slate-500"
-                >
-                  Aucun résultat.
+                <td colSpan={COLUMNS.length} className="empty">
+                  Aucun résultat pour cette recherche.
                 </td>
               </tr>
             )}
@@ -139,8 +137,8 @@ export default function DataTable({ rows }) {
         </table>
       </div>
 
-      <div className="mt-3 flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">
-        <div className="flex items-center gap-2">
+      <div className="table-footer">
+        <div className="group">
           <label htmlFor="page-size">Lignes par page</label>
           <select
             id="page-size"
@@ -149,7 +147,7 @@ export default function DataTable({ rows }) {
               setPageSize(Number(e.target.value));
               setPage(1);
             }}
-            className="rounded-md border border-slate-300 bg-white px-2 py-1"
+            className="input select-small"
           >
             {PAGE_SIZES.map((size) => (
               <option key={size} value={size}>
@@ -164,12 +162,12 @@ export default function DataTable({ rows }) {
           </span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="group">
           <button
             type="button"
             onClick={() => setPage(currentPage - 1)}
             disabled={currentPage <= 1}
-            className="rounded-md border border-slate-300 bg-white px-3 py-1.5 hover:bg-slate-50 disabled:opacity-40"
+            className="btn btn-secondary btn-small"
           >
             Précédent
           </button>
@@ -180,7 +178,7 @@ export default function DataTable({ rows }) {
             type="button"
             onClick={() => setPage(currentPage + 1)}
             disabled={currentPage >= totalPages}
-            className="rounded-md border border-slate-300 bg-white px-3 py-1.5 hover:bg-slate-50 disabled:opacity-40"
+            className="btn btn-secondary btn-small"
           >
             Suivant
           </button>
